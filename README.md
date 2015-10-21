@@ -16,9 +16,9 @@ The application is able to receive the arguments in variable order using the opt
 
 #### Examples:
 ```python
-python replacePattern.py -x rojo -y amarillo -p TargetDirectory -b -l -o modi.txt
+python replacePattern.py -x rojo -y amarillo -p external/TargetDirectory -b -l -o modi.txt
 
-python replacePattern.py -o modi.txt  -x rojo -y amarillo -p TargetDirectory -b -l
+python replacePattern.py -o modi.txt  -x rojo -y amarillo -p external/TargetDirectory -b -l
 ```
 
 As described above, the application can receive a optional argument for outpytting the files that was modified. To use this option just add a  -o <outputFileName>.
