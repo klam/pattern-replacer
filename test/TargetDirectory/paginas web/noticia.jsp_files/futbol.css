@@ -1,0 +1,244 @@
+.futbol_caja {
+	width: auto;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	z-index: 0;
+}
+.futbol_cabecera {
+	width: auto;
+	height: 23px;
+	padding-left: 5px;
+	background-image: url(../mediaweb/images/cuadroFutbol/logo_futbol.jpg);
+	background-repeat: no-repeat;
+	z-index: 1;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+}
+.futbol_pestanya {
+	width: 70px;
+	margin-left: 2px;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 9px;
+	line-height: 20px;
+	font-weight: normal;
+	text-decoration: none;
+	float: right;
+	height: 21px;
+	padding-left: 2px;
+	background-color: #E4E4E4;
+	padding-right: 2px;
+	bottom: 0px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 2;
+	border: 1px solid #999999;
+	top: 1px;
+}
+.futbol_pestanya A{
+	text-decoration: none;
+	color: #666666;
+	height: 21px;
+}
+.futbol_pestanya A:hover{
+	text-decoration:underline;
+}
+.futbol_pestanyaselec {
+	width: 70px;
+	margin-left: 2px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #666666;
+	border-right-color: #666666;
+	border-left-color: #666666;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	line-height: 18px;
+	font-weight: normal;
+	text-decoration: none;
+	float: right;
+	height: 21px;
+	padding-right: 2px;
+	padding-left: 2px;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	bottom: -1px;
+}
+.futbol_tabla {
+	background-color: #FFFFFF;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	text-decoration: none;
+}
+.futbol_tablacabecera {
+	border-bottom: 1px dotted #999999;
+	background-color: #FFFFFF;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #666666;
+}
+A {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	color: #333333;
+	text-decoration: none;
+}
+A:hover{
+	text-decoration:underline;
+	}
+.futbol_tablatd {
+
+	border-bottom: 1px dotted #DDDDDD;
+}
+.futbol_pie {
+	width: auto;
+	border-bottom: 2px solid #CCCCCC;
+	text-align: right;
+	padding-right: 5px;
+	padding-bottom: 3px;
+}
+.futbol_separador {
+	border-left: 1px dotted #999999;
+	margin-left: 4px;
+	padding-left: 5px;
+	height: auto;
+}
+
+.futbol_caja_lat {
+	width: auto;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	z-index: 0;
+}
+A {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	color: #333333;
+	text-decoration: none;
+}
+A:hover{
+	text-decoration:underline;
+	}
+.futbol_cabecera_lat {
+	width: auto;
+	height: 23px;
+	padding-left: 5px;
+	z-index: 1;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+}
+.futbol_pestanya_lat {
+	width: 70px;
+	margin-left: 2px;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 9px;
+	line-height: 20px;
+	font-weight: normal;
+	text-decoration: none;
+	float: right;
+	height: 21px;
+	padding-left: 2px;
+	background-color: #E4E4E4;
+	padding-right: 2px;
+	bottom: 0px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 2;
+	border: 1px solid #999999;
+	top: 1px;
+}
+.futbol_pestanya_lat A{
+	text-decoration: none;
+	color: #666666;
+	height: 21px;
+}
+.futbol_pestanya_lat A:hover{
+	text-decoration:underline;
+}
+.futbol_pestanyaselec_lat {
+	width: 70px;
+	margin-left: 2px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #666666;
+	border-right-color: #666666;
+	border-left-color: #666666;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	line-height: 18px;
+	font-weight: normal;
+	text-decoration: none;
+	float: right;
+	height: 21px;
+	padding-right: 2px;
+	padding-left: 2px;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	bottom: -1px;
+}
+.futbol_tabla_lat {
+	background-color: #FFFFFF;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	text-decoration: none;
+}
+.futbol_tablacabecera_lat {
+	border-bottom: 1px dotted #999999;
+	background-color: #FFFFFF;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #666666;
+}
+.futbol_tablatd_lat {
+
+	border-bottom: 1px dotted #DDDDDD;
+}
+.futbol_pie_lat {
+	width: auto;
+	border-bottom: 2px solid #CCCCCC;
+	text-align: right;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	background-image: url(../mediaweb/images/cuadroFutbol/logo_futbol.jpg);
+	background-repeat: no-repeat;
+}
+.futbol_separador_lat {
+	border-left: 1px dotted #999999;
+	margin-left: 4px;
+	padding-left: 5px;
+	height: 60px;
+}
+

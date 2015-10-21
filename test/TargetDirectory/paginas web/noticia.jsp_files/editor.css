@@ -1,0 +1,185 @@
+.editor_galeriaFotos{
+	background-image: url(../mediaweb/images/iconos/galerias.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px; 
+	line-height: 17px;
+	font-family: Tahoma, Times, serif;
+	font-size: 11px;
+	color: #003969;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	display:block;
+}
+
+.editor_galeriaVideo{
+	background-image: url(../mediaweb/images/iconos/video.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px; 
+	line-height: 17px;
+	font-family: Tahoma, Times, serif;
+	font-size: 11px;
+	color: #003969;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	display:block;
+}
+
+.editor_galeriaAudio{
+	background-image: url(../mediaweb/images/iconos/audio.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px; 
+	line-height: 17px;
+	font-family: Tahoma, Times, serif;
+	font-size: 11px;
+	color: #003969;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	display:block;
+}
+
+.editor_blogs{
+	background-image: url(../mediaweb/images/iconos/blogs.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px; 
+	line-height: 17px;
+	font-family: Tahoma, Times, serif;
+	font-size: 11px;
+	color: #003969;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	display:block;
+}
+
+.editor_documentos{
+	background-image: url(../mediaweb/images/iconos/documentos.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px; 
+	line-height: 17px;
+	font-family: Tahoma, Times, serif;
+	font-size: 11px;
+	color: #003969;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	display:block;
+}
+
+.editor_encuestas{
+	background-image: url(../mediaweb/images/iconos/encuestas.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px; 
+	line-height: 17px;
+	font-family: Tahoma, Times, serif;
+	font-size: 11px;
+	color: #003969;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	display:block;
+}
+
+.editor_foros{
+	background-image: url(../mediaweb/images/iconos/foros.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px; 
+	line-height: 17px;
+	font-family: Tahoma, Times, serif;
+	font-size: 11px;
+	color: #003969;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	display:block;
+}
+
+.editor_chat{
+	background-image: url(../mediaweb/images/iconos/chat.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px; 
+	line-height: 17px;
+	font-family: Tahoma, Times, serif;
+	font-size: 11px;
+	color: #003969;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	display:block;
+}
+
+.editor_infografia{
+	background-image: url(../mediaweb/images/iconos/infografias.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px; 
+	line-height: 17px;
+	font-family: Tahoma, Times, serif;
+	font-size: 11px;
+	color: #003969;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	display:block;
+}
+
+.editor_enlace{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: bold;
+	color: #003969;
+	text-decoration: none;
+}
+
+.editor_enlaceColor{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF6600;
+	text-decoration: none;
+}
+
+.editor_galeriaFotos :hover, .editor_galeriaVideo:hover, .editor_galeriaAudio:hover, .editor_blogs:hover, .editor_documentos:hover, 
+.editor_encuestas:hover, .editor_foros:hover, .editor_chat:hover, .editor_infografia:hover, .editor_enlace:hover, .editor_enlaceColor:hover
+{
+	text-decoration: underline;
+}
+
+.editor_textoColor{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	color: #FF6600;
+	text-decoration: none;
+}
+
+.editor_textoResaltado{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}

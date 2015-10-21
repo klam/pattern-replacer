@@ -1,0 +1,2319 @@
+@import url(menuPrincipal.css);
+@import url(cabeceras-interiores.css);
+@import url(comentarios-lectores.css);
+@import url(clasificacionesFutbol0708.css);
+
+/* Generales */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #FFF;
+
+}
+a {
+	text-decoration: none;
+	color: #036;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	list-style: none;
+}
+img {
+	border: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+pre{font-size:12px;
+border-top:3px solid #ccc;
+border-bottom:3px solid #ccc;
+
+margin-top:15px;
+color:#333;
+padding:6px;
+line-height:18px;
+background-color:#f3f3f3;
+}
+
+
+/* Publicidad Superior */
+div#superior {
+	background: #EEE;
+	border-bottom: 3px solid #6E7B81;
+	width: 960px;
+	height: 100px;
+}
+div#superior div#bigbanner {
+	margin: 5px;
+	float: left;
+}
+div#superior div#bannerSuperior {
+	margin: 5px;
+	margin-left: 10px;
+	float: right;
+}
+
+div#superior div#prueba {
+	margin: 5px;
+	float: right;
+}
+
+/* Mancheta */
+div#mancheta {
+	width: 960px;
+	margin: 15px 0;
+}
+div#mancheta h1 a {
+	display: block;
+	background: url(/imgs/comunes/manchetaPeq.gif) no-repeat;
+	width: 145px;
+	height: 25px;
+	margin-left: 1px;
+}
+div#mancheta h1 a span {
+	position: absolute;
+	top: -10000px;
+}
+
+
+
+
+
+
+/* saltar al contenido */
+a.irContenido {
+	position: absolute;
+	top: -10000px;
+}
+/* Menu Principal */
+
+	/* Fix IE. Hide from IE Mac \*/
+	* html ul li { float: left; }
+	* html ul li a { height: 1%; }
+	/* End */
+ 
+/* Ruta */
+ul#ruta {
+	border-bottom: 1px solid #EEE;
+	margin: 6px 0 2px 0;
+	padding-bottom: 3px;
+	width: 960px;
+}
+ul#ruta li {
+	background: transparent url(/paginas-interiores/imgs/comunes/indicador-ruta.gif) no-repeat scroll 0pt 6px;
+	display: inline;
+	font-size: 11px;
+	margin-left: 8px;
+	padding-left: 8px;
+}
+ul#ruta li a {
+	color: #777;
+}
+
+ul#ruta li.primero {
+	margin-left: 0;
+}
+
+/* Cabecera */
+div#cabecera {
+	border-bottom: 2px solid #DBDBDB;
+	float: left;
+	height: 28px;
+	margin: 4px 0 0 0;
+	padding: 0 0 5px 1px;
+	width: 959px;
+	position: relative;
+}
+div#cabecera h2 {
+	position: absolute;
+}
+div#cabecera h2 a {
+	display: block;
+	height: 28px;
+	text-indent: -2000px;
+	width: 415px;
+}
+
+div#cabecera h2.copafederacion a {
+	display: block;
+	height: 28px;
+	text-indent: -2000px;
+	width: 575px;
+}
+
+div#cabecera ul.menuSuperior {
+	float: right;
+	font-size: 11px;
+	padding-top: 15px;
+}
+div#cabecera ul.menuSuperior a {
+	font-size: 11px;
+}
+div#cabecera ul.menuSuperior li {
+	background: url(/paginas-interiores/imgs/comunes/separador-submenu-sup.gif) no-repeat right;
+	display: inline;
+	padding: 0 10px;
+}
+div#cabecera ul.menuSuperior li.sinseparador {
+	background: none;
+}
+
+div#cabeceracaminoeurocopa {
+	border-bottom: 2px solid #DBDBDB;
+	float: left;
+	height: 28px;
+	margin: 4px 0 0 0;
+	padding: 0 0 5px 1px;
+	width: 959px;
+	position: relative;
+}
+div#cabeceracaminoeurocopa h2 {
+	position: absolute;
+}
+div#cabeceracaminoeurocopa h2 a {
+	display: block;
+	height: 28px;
+	text-indent: -2000px;
+	width: 515px;
+}
+div#cabeceracaminoeurocopa ul.menuSuperior {
+	float: right;
+	font-size: 11px;
+	padding-top: 15px;
+}
+div#cabeceracaminoeurocopa ul.menuSuperior a {
+	font-size: 11px;
+}
+div#cabeceracaminoeurocopa ul.menuSuperior li {
+	background: url(/paginas-interiores/imgs/comunes/separador-submenu-sup.gif) no-repeat right;
+	display: inline;
+	padding: 0 10px;
+}
+div#cabeceracaminoeurocopa ul.menuSuperior li.sinseparador {
+	background: none;
+}
+
+div#cabeceracaminomundial2010 {
+	border-bottom: 2px solid #DBDBDB;
+	float: left;
+	height: 28px;
+	margin: 4px 0 0 0;
+	padding: 0 0 5px 1px;
+	width: 959px;
+	position: relative;
+}
+div#cabeceracaminomundial2010 h2 {
+	position: absolute;
+}
+div#cabeceracaminomundial2010 h2 a {
+	display: block;
+	height: 28px;
+	text-indent: -2000px;
+	width: 515px;
+}
+div#cabeceracaminomundial2010 ul.menuSuperior {
+	float: right;
+	font-size: 11px;
+	padding-top: 15px;
+}
+div#cabeceracaminomundial2010 ul.menuSuperior a {
+	font-size: 11px;
+}
+div#cabeceracaminomundial2010 ul.menuSuperior li {
+	background: url(/paginas-interiores/imgs/comunes/separador-submenu-sup.gif) no-repeat right;
+	display: inline;
+	padding: 0 10px;
+}
+div#cabeceracaminomundial2010 ul.menuSuperior li.sinseparador {
+	background: none;
+}
+
+
+div#cabecerabarcelonarmadridint {
+border-bottom: 2px solid #DBDBDB;
+	float: left;
+	height: 66px;
+	margin: 0px 0 0 0;
+	padding: 0 0 0px 1px;
+	width: 960px;
+	position: relative;
+}
+div#cabecerabarcelonarmadridint h2 {
+	position: absolute;
+}
+div#cabecerabarcelonarmadridint h2 a {
+	display: block;
+	height: 66px;
+	text-indent: -2000px;
+	width: 400px;
+}
+
+div#cabecerarmadridbarcelonaint {
+border-bottom: 2px solid #DBDBDB;
+	float: left;
+	height: 66px;
+	margin: 0px 0 0 0;
+	padding: 0 0 0px 1px;
+	width: 960px;
+	position: relative;
+}
+div#cabecerarmadridbarcelonaint h2 {
+	position: absolute;
+}
+div#cabecerarmadridbarcelonaint h2 a {
+	display: block;
+	height: 66px;
+	text-indent: -2000px;
+	width: 400px;
+}
+
+div#cabeceraatletirmadridint {
+border-bottom: 2px solid #DBDBDB;
+	float: left;
+	height: 66px;
+	margin: 0px 0 0 0;
+	padding: 0 0 0px 1px;
+	width: 960px;
+	position: relative;
+}
+div#cabeceraatletirmadridint h2 {
+	position: absolute;
+}
+div#cabeceraatletirmadridint h2 a {
+	display: block;
+	height: 66px;
+	text-indent: -2000px;
+	width: 400px;
+}
+
+div#cabeceraatletirmadridint p.fecha {
+	float: right;
+	font-size: 12px;
+	padding-top: 7px;
+	color:#000000;
+	margin-right:15px;
+}
+
+div#cabecerabarcelonarmadridint p.fecha {
+	float: right;
+	font-size: 12px;
+	padding-top: 7px;
+	color:#ffffff;
+	margin-right:15px;
+}
+
+div#cabecerarmadridbarcelonaint p.fecha {
+	float: right;
+	font-size: 12px;
+	padding-top: 50px;
+	color:#ffffff;
+	margin-right:15px;
+}
+
+
+div#cabeceracalendario {
+	border-bottom: 2px solid #DBDBDB;
+	float: left;
+	height: 28px;
+	margin: 4px 0 0 0;
+	padding: 0 0 5px 1px;
+	width: 959px;
+	position: relative;
+}
+div#cabeceracalendario h2 {
+	position: absolute;
+}
+div#cabeceracalendario h2 a {
+	display: block;
+	height: 28px;
+	text-indent: -2000px;
+	width: 515px;
+}
+div#cabeceracalendario ul.menuSuperior {
+	float: right;
+	font-size: 11px;
+	padding-top: 15px;
+}
+div#cabeceracalendario ul.menuSuperior a {
+	font-size: 11px;
+}
+div#cabeceracalendario ul.menuSuperior li {
+	background: url(/paginas-interiores/imgs/comunes/separador-submenu-sup.gif) no-repeat right;
+	display: inline;
+	padding: 0 10px;
+}
+div#cabeceracalendario ul.menuSuperior li.sinseparador {
+	background: none;
+}
+
+
+div#cabeceralagranfirmada {
+
+}
+div#cabeceralagranfirmada h2 {
+	position: absolute;
+}
+div#cabeceralagranfirmada h2 a {
+	display: block;
+	height: 28px;
+	text-indent: -2000px;
+	width: 515px;
+}
+
+
+div#motociclismord {
+	border-bottom: 2px solid #DBDBDB;
+	float: left;
+	height: 28px;
+	margin: 4px 0 0 0;
+	padding: 0 0 5px 1px;
+	width: 959px;
+	position: relative;
+}
+div#motociclismord h2 {
+	position: absolute;
+}
+div#motociclismord h2 a {
+	display: block;
+	height: 28px;
+	text-indent: -2000px;
+	width: 515px;
+}
+div#motociclismord ul.menuSuperior {
+	float: right;
+	font-size: 11px;
+	padding-top: 15px;
+}
+div#motociclismord ul.menuSuperior a {
+	font-size: 11px;
+}
+div#motociclismord ul.menuSuperior li {
+	background: url(/paginas-interiores/imgs/comunes/separador-submenu-sup.gif) no-repeat right;
+	display: inline;
+	padding: 0 10px;
+}
+div#motociclismord ul.menuSuperior li.sinseparador {
+	background: none;
+}
+
+
+/* Contenedor */
+div#contenedor {
+	float: left;
+	width: 960px;
+	clear: both;
+	background: url(/paginas-interiores/imgs/comunes/fondo-global-indices.gif) repeat-y;
+}
+body#interiores div#contenedor {
+	background: transparent url(/paginas-interiores/imgs/comunes/fondo-global-noticias.gif) repeat-y scroll 0%;
+}
+
+body#interiores.sincolumna div#contenedor {
+	background: transparent url(/paginas-interiores/imgs/comunes/fondo-global-noticias-sincolumna.gif) repeat-y scroll 0%;
+}
+
+body#marcador div#contenedor {
+	background: transparent url(/paginas-interiores/imgs/comunes/fondo-global-noticias.gif) repeat-y scroll 0%;
+}
+
+/* Contenido */
+div#contenido {
+	float: left;
+	margin-right: 30px;
+	padding: 15px 0 15px 0;
+	width: 364px;
+}
+body#interiores div#contenido {
+	font-size: 0.9em;
+	line-height: 18px;
+	margin-right: 25px;
+	padding: 15px 0 15px 0;
+	width: 600px;
+}
+body#marcador div#contenido {
+	font-size: 0.9em;
+	line-height: 18px;
+	margin-right: 25px;
+	padding: 15px 0 15px 0;
+	width: 600px;
+}
+div#contenido img {
+	border: 1px solid #E8E8E8;
+	padding: 4px;
+}
+div#contenido p {
+	color: #333;
+	font-size: 0.9em;
+	line-height: 18px;
+}
+
+div#contenido a {
+	color: #036;
+	text-decoration:underline;
+	font-weight:regular;
+}
+
+div#contenido a:hover {
+	color: #000;
+	
+}
+
+div#contenido .fecha {
+	border-bottom: 1px solid #E8E8E8;
+	margin-bottom:10px;
+	font:13px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+/* Noticia principal */
+body#indices div#contenido img {
+	margin-bottom: 10px;
+}
+div#contenido div#principal {
+	padding: 0;
+}
+div#contenido div#principal h3 {
+	font-size: 42px;
+	letter-spacing: -2px;
+	line-height: 36px;
+	margin-bottom: 10px;
+}
+
+div#contenido div#principal h3 a {
+	text-decoration:none;
+}
+
+div#contenido div#principal h3 a:hover {
+	text-decoration:underline;
+	color:#003366;
+}
+
+div#contenido div#principal p {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E5E5E5;
+}
+body#indices div#contenido div#principal p.antetitulo {
+	padding: 0;
+	border: 0;
+	
+}
+body#indices div#contenido div#principal p.antetitulo img {
+	margin: 0 0 10px 0;
+}
+
+/* Noticias secundarias */
+div#contenido div#secundarias {
+	padding: 0;
+}
+div#contenido div#secundarias div h3 {
+	font-size: 18px;
+	line-height: 20px;
+	margin: 15px 0 4px 0;
+}
+
+div#contenido div#secundarias div h3 a {
+	text-decoration:none;
+	
+}
+
+div#contenido div#secundarias div h3 a:hover{
+	text-decoration:underline;
+	color:#003366;
+	
+}
+
+div#contenido div#secundarias div p {
+	padding: 0 0 15px 0;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+/* Ms noticias */
+div#contenido div#masnoticias {
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+div#contenido div#masnoticias h3 {
+	font-size: 12px;
+	font-weight: bold;
+}
+div#contenido div#masnoticias h3 a {
+	color: #CC9900;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration:none;
+}
+div#contenido div#masnoticias h4 {
+	clear: both;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 8px;
+}
+div#contenido div#masnoticias ul {
+	clear: both;	
+	padding-bottom: 5px;
+}
+div#contenido div#masnoticias ul li {
+	background: url(/paginas-interiores/imgs/comunes/apoyo-masnoticias.gif) no-repeat 0 8px;
+	clear: both;
+	display: block;
+	line-height: 15px;
+	margin-bottom: 2px;
+	padding-left: 5px;
+	width: 359px;
+}
+div#contenido div#masnoticias ul li a {
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration:none;
+}
+
+div#contenido div#masnoticias ul li a:hover {
+	text-decoration:underline;
+	color:#003366;
+}
+
+/* Desarrollo de noticia */
+body#interiores div#contenido p.antetitulo {
+	border: 0;
+	color: #666;
+	font-size: 12px;
+	margin: 0 0 3px 0;
+	text-transform: uppercase;
+}
+body#interiores div#contenido h2 {
+	font-size: 34px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 38px;
+	margin: 0 0 7px 0;
+	height: auto;
+	width: auto;	
+}
+body#interiores div#contenido cite {
+	display: block;
+	margin-bottom: 10px;
+	font:12px Georgia, "Times New Roman", Times, serif;
+	color:#AB8921;
+	border-bottom:1px solid #e7e7e7;
+	padding-bottom:2px;
+	
+}
+body#interiores div#contenido h3 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+}
+body#interiores div#contenido div.destacado {
+	border-bottom: 1px solid #E5E5E5;
+	border-top: 1px solid #E5E5E5;
+	color: #B69000;
+	margin: 14px 0;
+	padding: 10px 0 10px 0;
+}
+
+/* Columna */
+div#columna {
+	float: left;
+	font-size: 11px;
+	font-weight: normal;
+	margin-right: 31px;
+	padding: 15px 0 15px 0;
+	width: 200px;
+}
+body#interiores div#columna {
+	display: none;
+}
+div#columna h3 {
+	background: url(/paginas-interiores/imgs/comunes/fondo-encabezado.gif) no-repeat;
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	height: 23px;
+	margin-bottom: 4px;
+	padding: 6px 0 0 5px;
+	text-transform: uppercase;
+	width: 200px;
+}
+
+div#columna p.archivo { margin-bottom:3px;}
+
+div#columna .heineken{ height:23px;}
+* html div#columna .heineken{ height:32px;}
+
+div#columna .heineken h3 {
+	background: url(/paginas-interiores/imgs/comunes/fondo-encabezado-heineken.gif) no-repeat;
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	/*height: 29px;
+	padding: 6px 0 0 5px;*/
+	text-transform: uppercase;
+	width: 200px;
+}
+
+div#columna h3 span {
+	color: #FF3333;
+}
+div#columna table#resultados, div#columna table#clasificacion {
+	color: #727272;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	width: 200px;
+}
+div#columna table#resultados td, div#columna table#clasificacion td {
+	border-bottom: 1px #D9D9D9 solid;
+	height: 24px;
+	padding: 0 0 0 6px;
+}
+div#columna table#resultados td.resultado {
+	font-weight: normal;
+}
+div#columna table#clasificacion tr.activo {
+	background-color: #333;
+	color: #FFF;
+	font-weight: bold;
+}
+div#columna table#resultados th, div#columna table#clasificacion th {
+	position: absolute;
+	top: -10000px;
+}
+div#columna table#primera, div#columna table#segunda {
+	color: #727272;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	width: 200px;
+}
+div#columna table#primera td, div#columna table#segunda td {
+	border-bottom: 1px #F1F1F1 solid;
+	border-left: 1px #F1F1F1 solid;
+	height: 20px;
+	text-align: right;
+}
+div#columna table#primera td.puntos, div#columna table#segunda td.puntos {
+	border-left: 0;
+	color: #C0C0C0;
+	padding-right: 2px;
+	width: 18px;
+}
+div#columna table#primera td.champions {
+	background: #AED893;
+	border-left: 0;
+	border-right: 1px solid #FFF;
+	color: #FFF;
+	padding-right: 2px;
+	width: 18px;
+}
+div#columna table#primera td.uefa {
+	background: #EEDF7D;
+	border-left: 0;
+	border-right: 1px solid #FFF;
+	color: #FFF;
+	padding-right: 2px;
+	width: 18px;
+}
+div#columna table#primera td.descenso, div#columna table#segunda td.descenso {
+	background: #DD695F;
+	border-left: 0;
+	border-right: 1px solid #FFF;
+	color: #FFF;
+	padding-right: 2px;
+	width: 18px;
+}
+div#columna table#primera td.equipo, div#columna table#segunda td.equipo {
+	border-left: 1px #F1F1F1 solid;
+	padding-left: 15px;
+	text-align: left;
+}
+div#columna table#segunda td.ascenso {
+	background: #AED893;
+	border-left: 0;
+	border-right: 1px solid #FFF;
+	color: #FFF;
+	padding-right: 2px;
+	width: 18px;
+}
+div#columna div.publicidad {
+	margin-bottom: 20px;
+	width: 200px;
+}
+
+div#columna div.publicidadbbva2 {
+	margin-bottom: 0px;
+	width: 200px;
+}
+
+div#columna div.publicidadbbva {
+	border: 1px solid #073487;
+	width: 200px;
+	margin-bottom:5px;
+	border-bottom: 1px solid #073487;
+}
+
+div#columna p.bbvacintillo {
+	background-color:073487;
+	width: 200px;
+	text-align:center;
+	color:#FFFFFF;
+	line-height:20px;
+	
+}
+
+
+div#columna .menu-columna {
+	background: #FFF;
+	float: left;
+	margin-bottom: 20px; 
+	width: 200px;
+}
+
+
+div#columna .menu-columna .destacados {
+	border-bottom: 1px solid #CCC;
+	padding: 10px 0 6px 0;
+	width: 200px;
+}
+
+div#columna .menu-columna .destacados_patrocinado {
+	border: 1px solid #CCC;
+	padding: 10px 0 6px 0;
+	width: 200px;
+}
+/*div#columna .menu-columna .destacados img {
+	margin: 2px 0 4px 0;
+}*/
+div#columna .menu-columna .destacados img {
+	float: left;
+	margin: 0 6px 0 0;
+}
+
+div#columna .menu-columna .destacados h5 {
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0;
+}
+div#columna .menu-columna .destacados p {
+	font-size: 12px;
+}
+
+/* destacados en columna con foto */
+div#columna .menu-columna .destacados-foto {
+	border-bottom: 1px solid #CCC;
+	padding: 10px 0 6px 0;
+	width: 200px;
+}
+
+div#columna .menu-columna .destacados-foto img {
+	
+	margin: 0 0px 0 0;
+}
+div#columna .menu-columna .destacados-foto h5 {
+	font: 13px Arial, Helvetica, sans-serif;;
+	font-weight: bold;
+	text-decoration:none;
+	display:block;
+	position:relative;
+	top:-20px;
+	margin-bottom:5px;
+	opacity: 0.8;
+	filter: alpha (opacity=80);
+	height:19px;
+	padding: 2px 0px 0px 3px;
+	background-color:#fff;
+	
+}
+div#columna .menu-columna .destacados-foto p {
+	font-size: 12px;
+	margin-top:-21px;
+}
+
+
+
+
+
+/* Extras */
+div#extras {
+	float: left;
+	font-weight: normal;
+	padding: 15px 0 15px 0;
+	width: 320px;
+}
+div#extras .publicidad{
+	margin-bottom: 20px;
+	width: 320px;
+}
+div#extras .publi {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+div#extras .publi h6 {
+	background: transparent url(/paginas-interiores/imgs/comunes/tit_publicidad.gif) left -3px no-repeat;
+	width: 53px;
+	height: 13px;
+}
+div#extras .publi h6 span {
+	text-indent: -9999px;
+	display: block;
+}
+div#extras .publi2 {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+div#extras .publi3 {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+div#extras .publi3 h6 {
+	background: transparent url(/paginas-interiores/imgs/comunes/tit_publicidad.gif) left -3px no-repeat;
+	width: 53px;
+	height: 13px;
+}
+div#extras .publi3 h6 span {
+	text-indent: -9999px;
+	display: block;
+}
+body#indices div#extras .publi2 {
+	display: none;
+}
+
+body#indices div#extras .publi3 {
+	display: none;
+}
+div#extras .publi2 h6 {
+	background: transparent url(/paginas-interiores/imgs/comunes/tit_publicidad.gif) left -3px no-repeat;
+	width: 53px;
+	height: 13px;
+}
+div#extras .publi2 h6 span {
+	text-indent: -9999px;
+	display: block;
+}
+div#extras .publisinblanco {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+div#extras .lomasvisto { 
+	background-color: #FFFFFF;
+	clear: both;
+	color: #818181;
+	margin-bottom: 20px;
+	width: 320px;
+}
+div#extras .lomasvisto h3 {
+	background: url(/paginas-interiores/imgs/comunes/fondo-encabezado-ancho.gif) no-repeat;
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	height: 30px;
+	margin-bottom: 4px;
+	padding: 10px 0 0 5px;
+	text-transform: uppercase;
+	width: 320px;
+}
+div#extras .lomasvisto ol {
+	font-size: 11px;
+	margin: 10px 10px 10px 35px;
+	padding-bottom: 10px;
+	color: #818181;
+	font-size: 12px;
+}
+div#extras .lomasvisto ol li {
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+div#extras .lomasvisto ol li strong {
+display:none;
+}
+
+div#extras .lomasvisto ol li a {
+	color: #003366;
+}
+
+
+
+div#extras .reportajes {
+	background: #FFF;
+	border-top: 3px solid #656565;
+	/*float: left;
+	margin-bottom: 10px; */
+	width: 320px;
+}
+
+div#extras .sinborde {
+	border-top: 0px solid #656565;
+ 
+}
+
+div#extras .reportajes_destacados {
+	background: #f7f7f7;
+	border: 1px dotted #ccc;
+	float: left;
+	margin-bottom: 20px; 
+	width: 310px;
+	padding:7px;
+}
+div#extras .reportajes h3 {
+	color: #666;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px 0 0 13px;
+}
+
+div#extras .reportajes_destacados h3 {
+	color: #666;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px 0 0 0px;
+}
+
+div#extras .reportajes .destacados {
+	border-top: 1px solid #CCC;
+	margin: 0 0 0 13px;
+	padding: 10px  0;
+	width: 300px;
+}
+
+div#extras .reportajes_destacados .destacados_vertical {
+	margin-left: 0px;
+	padding: 10px  0px 10px 1px;
+	width: 95px;
+	float:left;
+}
+ 
+div#extras .reportajes .destacados img {
+
+float: left; background:url(http://www.marca.com/futbol/super-cronica-champions/07-08/img/sombra_img.gif) bottom no-repeat; padding-bottom:5px;margin: 0px 13px 0px 0px; 
+}
+
+div#extras .reportajes_destacados .destacados_vertical img {
+
+float: left; background:url(http://www.marca.com/futbol/super-cronica-champions/07-08/img/sombra_img.gif) bottom no-repeat; padding-bottom:5px;margin: 0px 13px 0px 0px; 
+}
+
+div#extras .reportajes .destacados h5 {
+	font-size: 0.9em;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+div#extras .reportajes .destacados p {
+	font-size: 12px;
+}
+
+div#extras .reportajes_destacados .destacados_vertical p {
+	font-size: 11px;
+}
+div#extras .reportajes .apoyos {
+	border-top: 1px solid #CCC;
+	margin: 0 0 0 13px;
+	padding: 13px 0 13px 0;
+	width: 300px;
+}
+div#extras .reportajes .apoyos a {
+	background: url(/paginas-interiores/imgs/comunes/apoyo-masnoticias.gif) no-repeat 0 8px;
+	font-size: 12px;
+	padding-left: 5px;
+}
+
+  
+/*estirar*/
+ .estirar:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.estirar {
+	display: inline-block;
+}
+/* oculto IE-mac \*/
+* html .estirar {
+	height: 1%;
+}
+.estirar {
+	display: block;
+}
+/*fin oculto IE-mac */
+
+/* Contenedor Opinion */
+div#extras div.contLomasleido p {color:#666; width:100%;}
+div#extras div.contLomasleido strong {font-size:11px; font-weight:bold;}
+div#extras div.contLomasleido p strong {display:none;} 
+
+div#extras div#contOpinion ol {margin:5px 0px 0px 25px; color:#333;}
+div#extras div#contOpinion li{font:10px Arial,Verdana; color:#666; margin-bottom:5px;}
+div#extras div#contOpinion li a{color:#036; font-size:12px;}
+div#extras div#contOpinion li strong {color:#000; font:11px Arial,Verdana; font-weight:normal;}
+
+/* Pie */
+div#pie {
+	background-color: #F7F7F7;
+	border-bottom: 3px solid #DDDDDD;
+	border-top: 1px solid #CCCCCC;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 1px 0 10px;
+	padding: 10px;
+	width: 940px;
+
+}
+* html div#pie {
+	width: 960px;
+}
+*:first-child+html div#pie {
+	width: 960px;
+}
+.enlaces_pie {
+	float: left;
+}
+div#pie img {
+	float: left;
+}
+.enlaces_pie a {
+	font-size: 1.1em;
+	padding: 0 5px 3px 10px;
+}
+div#recoletos {
+	float: right;
+	font-size: 1.1em;
+}
+div#recoletos a {
+	font-size: 1em;
+	text-decoration: underline;
+	color: #000;
+}
+
+/* Herramientas */
+div#contenido div#herramientas {
+	margin-bottom: 20px;
+	margin-top:10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #CCC;
+	height: 25px;
+}
+div#contenido div#herramientas ul#tools {
+	float:right;
+}
+div#contenido div#herramientas ul#tools li {
+	display: inline;
+}
+div#contenido div#herramientas ul#tools li a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: #333;
+	margin-right: 3px;
+}
+div#contenido div#herramientas ul#tools li#reducir a {
+	background: url(/imgs/iconos/reducirTexto.gif);
+}
+div#contenido div#herramientas ul#tools li#aumentar a {
+	background: url(/imgs/iconos/aumentarTexto.gif);
+}
+div#contenido div#herramientas ul#tools li#imprimir a {
+	background: url(/imgs/iconos/imprimirNoticia.gif);
+}
+div#contenido div#herramientas ul#tools li#enviar a {
+	background: url(/imgs/iconos/enviarNoticia.gif);
+}
+div#contenido div#herramientas ul#tools li#comentar a {
+	background: url(/imgs/iconos/comentar.gif);
+	text-decoration:none;
+	color:#c00;
+}
+div#contenido div#herramientas ul#tools li a span {
+	position: absolute;
+	top: -10000px;
+}
+div#contenido div#herramientas p {
+	margin-bottom: 0;
+}
+
+div#contenido div#herramientas #fecha {
+	margin-bottom: 0px;
+	color:#777;
+	width:250px;
+	font-size:12px;
+}
+
+p.antetitulo img {
+	border: 1px solid #CCC;
+	padding: 5px;
+	margin: 0 0 20px 20px;
+}
+
+ /* +++++ TextLink de Eurobet +++++ */
+ #textlink {
+ 	width: 100%;
+	background-color: #00008B;
+	text-align: center;
+	padding: 2px;
+	margin-top: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", sans-serif;
+ }
+ #textlink a {
+ 	color: Yellow;
+ }
+ #textlink strong {
+ 	color: #FFF;	
+	padding-right: 4px;
+ } 
+ 
+body#desarrollo #textlink {
+ 	width: 95%;
+ }
+table#textlinkprueba {
+	margin-top: 20px;
+}
+
+/* Enlaces patrocinados */
+div#enlacesPatrocinados {
+	font-size: 13px;	
+	border: 1px solid #DDD;
+	clear: both;
+	width:597px;
+	line-height:15px;
+	padding-bottom:5px;
+	
+}
+
+div#enlacesPatrocinados a{
+text-decoration:none;
+	
+}
+
+div#enlacesPatrocinados a:hover{
+text-decoration:underline;
+color:#003366;
+	
+}
+
+
+
+/* Tablas de calendarios */
+table.calendario td {
+	padding: 3px 0;
+	border-bottom: 1px dotted #DDD;
+}
+table.calendario th {
+	padding: 3px 0;
+	border-bottom: 1px dotted #DDD;
+}
+table.calendario td.mes {
+	padding-top: 20px;
+	font-weight: bold;
+}
+table.calendario td.columna1 {
+	width: 50px;
+}
+
+/* +++++ Clases +++++ */
+.clear {
+	clear: both;
+}
+.limpiar {
+	clear: both;
+	margin:0px;
+	padding:0px;
+}
+
+a#kalgan {
+background: transparent url(/imgs/extras/fondoKalgan.gif) no-repeat scroll 0%;
+display: block;
+height: 120px;
+margin-top: 20px;
+width: 200px;
+}
+a#kalgan span {
+position: absolute;
+top: -10000px;
+}
+body#interiores div#contenido h2.titulo {
+	font-size: 23px;
+	padding-bottom: 15px;
+}
+body#interiores div#contenido h3.titulo {
+	font-size: 21px;
+	padding-bottom: 15px;
+}
+div#columna #resultadosBalonmano td {
+	padding: 5px !important;
+	width: 33% !important;
+	text-align: center !important;
+}
+
+.tabla_partidos {
+	font-family: "Trebuchet MS" , sans-serif;
+	border: 1px #CCC solid;
+	margin-bottom: 15px;
+	width: 100%;
+}
+.tabla_partidos h4 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	background-color:#CCCCCC;
+	padding-left: 4px;
+}
+.tenisresultados {
+	font-family: "Trebuchet MS" , sans-serif;
+	border: 1px #CCC dotted;
+	margin-top: 15px;
+	width: 100%;
+	font-size: 12px;
+}
+.tenisresultados h4 {
+	font-size: 17px;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 4px;
+}
+.tenisresultados td h4 {
+	background: #666;
+}
+.camporesultados {
+	padding: 4px;
+}
+.camporesultados_partidos {
+	font-size: 12px;
+	padding: 4px;
+	border: 1px #CCC solid;
+}
+.golfresultados {
+	font-family: "Trebuchet MS" , sans-serif;
+	margin-bottom: 15px;
+	border-top: 1px #CCC dotted;
+	border-left: 1px #CCC dotted;
+	border-right: 1px #CCC dotted;
+}
+.golfresultados td {
+	border-bottom: 1px #CCC dotted;
+}
+.golfcampojugador {
+	padding: 4px;
+	border-right: 1px #CCC dotted;
+}
+.golfcamporesultados {
+	padding: 4px;
+}
+.golfresultados th {
+	text-align: left;
+	font-size: 17px;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 4px;
+	background: #666;
+}
+.linea_td {
+     border-bottom: 1px solid #CCC;
+}
+
+/* Barra de equipos */
+div#barraEquipos {
+	width: 960px;
+	height: 26px;
+	border-bottom: 1px solid #999;
+	background: url(/imgs/newhome/fnd_barraequipos.gif) repeat-x;
+	clear: both;
+}
+div#barraEquipos h2 {
+	position: absolute;
+	top: -10000px;
+}
+div#barraEquipos ul li {
+	display: inline;
+}
+div#barraEquipos ul li a {
+	display: block;
+	width: 27px;
+	height: 26px;
+	background: url(/imgs/newhome/fnd_escudos0809.gif) no-repeat;
+	float: left;
+}
+div#barraEquipos ul li.almeria a {
+	background-position: 0 0;
+}
+div#barraEquipos ul li.almeria a:hover {
+	background-position: 0 -26px;
+}
+div#barraEquipos ul li.athletic a {
+	background-position: -27px 0;
+}
+div#barraEquipos ul li.athletic a:hover {
+	background-position: -27px -26px;
+}
+div#barraEquipos ul li.atletico a {
+	background-position: -54px 0;
+}
+div#barraEquipos ul li.atletico a:hover {
+	background-position: -54px -26px;
+}
+div#barraEquipos ul li.barcelona a {
+	background-position: -81px 0;
+}
+div#barraEquipos ul li.barcelona a:hover {
+	background-position: -81px -26px;
+}
+div#barraEquipos ul li.betis a {
+	background-position: -108px 0;
+}
+div#barraEquipos ul li.betis a:hover {
+	background-position: -108px -26px;
+}
+div#barraEquipos ul li.deportivo a {
+	background-position: -135px 0;
+}
+div#barraEquipos ul li.deportivo a:hover {
+	background-position: -135px -26px;
+}
+div#barraEquipos ul li.espanyol a {
+	background-position: -162px 0;
+}
+div#barraEquipos ul li.espanyol a:hover {
+	background-position: -162px -26px;
+}
+div#barraEquipos ul li.getafe a {
+	background-position: -189px 0;
+}
+div#barraEquipos ul li.getafe a:hover {
+	background-position: -189px -26px;
+}
+div#barraEquipos ul li.malaga a {
+	background-position: -216px 0;
+}
+div#barraEquipos ul li.malaga a:hover {
+	background-position: -216px -26px;
+}
+div#barraEquipos ul li.mallorca a {
+	background-position: -243px 0;
+}
+div#barraEquipos ul li.mallorca a:hover {
+	background-position: -243px -26px;
+}
+div#barraEquipos ul li.numancia a {
+	background-position: -270px 0;
+}
+div#barraEquipos ul li.numancia a:hover {
+	background-position: -270px -26px;
+}
+div#barraEquipos ul li.osasuna a {
+	background-position: -297px 0;
+}
+div#barraEquipos ul li.osasuna a:hover {
+	background-position: -297px -26px;
+}
+div#barraEquipos ul li.racing a {
+	background-position: -324px 0;
+}
+div#barraEquipos ul li.racing a:hover {
+	background-position: -324px -26px;
+}
+div#barraEquipos ul li.realmadrid a {
+	background-position: -351px 0;
+}
+div#barraEquipos ul li.realmadrid a:hover {
+	background-position: -351px -26px;
+}
+div#barraEquipos ul li.recreativo a {
+	background-position: -378px 0;
+}
+div#barraEquipos ul li.recreativo a:hover {
+	background-position: -378px -26px;
+}
+div#barraEquipos ul li.sevilla a {
+	background-position: -405px 0;
+}
+div#barraEquipos ul li.sevilla a:hover {
+	background-position: -405px -26px;
+}
+div#barraEquipos ul li.sporting a {
+	background-position: -432px 0;
+}
+div#barraEquipos ul li.sporting a:hover {
+	background-position: -432px -26px;
+}
+div#barraEquipos ul li.valencia a {
+	background-position: -459px 0;
+}
+div#barraEquipos ul li.valencia a:hover {
+	background-position: -459px -26px;
+}
+div#barraEquipos ul li.valladolid a {
+	background-position: -486px 0;
+}
+div#barraEquipos ul li.valladolid a:hover {
+	background-position: -486px -26px;
+}
+div#barraEquipos ul li.villarreal a {
+	background-position: -513px 0;
+}
+div#barraEquipos ul li.villarreal a:hover {
+	background-position: -513px -26px;
+}
+div#barraEquipos ul li a span {
+	position: absolute;
+	top: -10000px;
+}
+div#radiomarca {
+	display: none;
+}
+
+/* Equipos Segunda */
+div#barraEquiposSegunda {
+	width: 100%;
+	height: 25px;
+	margin-top: 8px;
+	clear: both;
+}
+div#barraEquiposSegunda h2 {
+	font-size: .6em;
+}
+div#barraEquiposSegunda ul li {
+	display: inline;
+}
+div#barraEquiposSegunda ul li a {
+	display: block;
+	margin-right: 1px;
+	float: left;
+	width: 30px;
+	height: 18px;
+	background: url(/imgs/home/barraequipos2a0809.gif) no-repeat;
+}
+div#barraEquiposSegunda>ul li a { /* Hack solo para Firefox */
+	margin-right: 4px; 
+}
+div#barraEquiposSegunda ul li a span {
+	position: absolute; 
+	display: none;
+	
+}
+/* Botones Equipos Segunda */
+div#barraEquiposSegunda ul li.alaves a {
+	background-position: 0 0;
+}
+div#barraEquiposSegunda ul li.albacete a {
+	background-position: -33px 0;
+}
+div#barraEquiposSegunda ul li.alicante a {
+	background-position: -66px 0;
+}
+div#barraEquiposSegunda ul li.castellon a {
+	background-position: -99px 0;
+}
+div#barraEquiposSegunda ul li.celta a {
+	background-position: -132px 0;
+}
+div#barraEquiposSegunda ul li.cordoba a {
+	background-position: -165px 0;
+}
+div#barraEquiposSegunda ul li.eibar a {
+	background-position: -198px 0;
+}
+div#barraEquiposSegunda ul li.elche a {
+	background-position: -231px 0;
+}
+div#barraEquiposSegunda ul li.girona a {
+	background-position: -264px 0;
+}
+div#barraEquiposSegunda ul li.hercules a {
+	background-position: -297px 0;
+}
+div#barraEquiposSegunda ul li.huesca a {
+	background-position: -330px 0;
+}
+div#barraEquiposSegunda ul li.las_palmas a {
+	background-position: -363px 0;
+}
+div#barraEquiposSegunda ul li.levante a {
+	background-position: -396px 0;
+}
+div#barraEquiposSegunda ul li.murcia a {
+	background-position: -429px 0;
+}
+div#barraEquiposSegunda ul li.nastic a {
+	background-position: -462px 0;
+}
+div#barraEquiposSegunda ul li.rayo_vallecano a {
+	background-position: -495px 0;
+}
+div#barraEquiposSegunda ul li.realsociedad a {
+	background-position: -528px 0;
+}
+div#barraEquiposSegunda ul li.salamanca a {
+	background-position: -561px 0;
+}
+div#barraEquiposSegunda ul li.sevilla-atletico a {
+	background-position: -594px 0;
+}
+div#barraEquiposSegunda ul li.tenerife a {
+	background-position: -627px 0;
+}
+div#barraEquiposSegunda ul li.xerez a {
+	background-position: -660px 0;
+}
+div#barraEquiposSegunda ul li.zaragoza a {
+	background-position: -693px 0;
+}
+/* Botones Equipos Segunda Over */
+div#barraEquiposSegunda ul li.alaves a:hover {
+	background-position: 0 -18;
+}
+div#barraEquiposSegunda ul li.albacete a:hover {
+	background-position: -33px -18;
+}
+div#barraEquiposSegunda ul li.alicante a:hover {
+	background-position: -66px -18;
+}
+div#barraEquiposSegunda ul li.castellon a:hover {
+	background-position: -99px -18;
+}
+div#barraEquiposSegunda ul li.celta a:hover {
+	background-position: -132px -18;
+}
+div#barraEquiposSegunda ul li.cordoba a:hover {
+	background-position: -165px -18;
+}
+div#barraEquiposSegunda ul li.eibar a:hover {
+	background-position: -198px -18;
+}
+div#barraEquiposSegunda ul li.elche a:hover {
+	background-position: -231px -18;
+}
+div#barraEquiposSegunda ul li.girona a:hover {
+	background-position: -264px -18;
+}
+div#barraEquiposSegunda ul li.hercules a:hover {
+	background-position: -297px -18;
+}
+div#barraEquiposSegunda ul li.huesca a:hover {
+	background-position: -330px -18;
+}
+div#barraEquiposSegunda ul li.las_palmas a:hover {
+	background-position: -363px -18;
+}
+div#barraEquiposSegunda ul li.levante a:hover {
+	background-position: -396px -18;
+}
+div#barraEquiposSegunda ul li.murcia a:hover {
+	background-position: -429px -18;
+}
+div#barraEquiposSegunda ul li.nastic a:hover {
+	background-position: -462px -18;
+}
+div#barraEquiposSegunda ul li.rayo_vallecano a:hover {
+	background-position: -495px -18;
+}
+div#barraEquiposSegunda ul li.realsociedad a:hover {
+	background-position: -528px -18;
+}
+div#barraEquiposSegunda ul li.salamanca a:hover {
+	background-position: -561px -18;
+}
+div#barraEquiposSegunda ul li.sevilla-atletico a:hover {
+	background-position: -594px -18;
+}
+div#barraEquiposSegunda ul li.tenerife a:hover {
+	background-position: -627px -18;
+}
+div#barraEquiposSegunda ul li.xerez a:hover {
+	background-position: -660px -18;
+}
+div#barraEquiposSegunda ul li.zaragoza a:hover {
+	background-position: -693px -18;
+}
+
+/* video */
+
+div.video {
+width: 320px;
+
+padding: 2px;
+border: 1px solid #CCC;
+float: left;
+margin-right: 10px;
+margin-bottom:10px;
+}
+
+div.videoPeq {
+width: 256px;
+height: 192px;
+padding: 2px;
+border: 1px solid #CCC;
+float: right;
+margin-left: 0px;
+}
+
+div.videoPeq2 {
+width: 240px;
+height: 192px;
+padding: 2px;
+border: 1px solid #CCC;
+float: right;
+margin-left: 0px;
+}
+
+/* Tablas resultados */
+
+div#columna .menu-columna div.uefapartidos table {
+	color: #727272;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	width: 200px;
+}
+div#columna .menu-columna div.uefapartidos caption {
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 1px solid #868686;
+	margin-bottom: 8px;
+	padding-bottom: 3px;
+	color: #333;
+}
+div#columna .menu-columna div.uefapartidos table td {
+	font-weight: normal;
+	border-bottom: 1px solid #D9D9D9;
+	height: 24px;
+	padding: 0 0 0 6px;
+}
+div#columna .menu-columna div.uefapartidos table td.local {
+	border-bottom: 1px solid #D9D9D9;
+	height: 24px;
+	padding: 0 0 0 6px;
+	font-weight: bold;
+}
+div#columna .menu-columna div.uefapartidos table td.visitante {
+	border-bottom: 1px solid #D9D9D9;
+	height: 24px;
+	padding: 0 0 0 6px;
+	font-weight: bold;
+}
+
+div#columna .menu-columna div.championspartidos  {
+	border-bottom: 2px solid #868686;
+}
+
+div#columna .menu-columna div.championspartidos table {
+	color: #727272;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	border:1px solid #e7e7e7;
+	width: 200px;
+	margin-top:-10px;
+}
+div#columna .menu-columna div.championspartidos caption {
+	font-size: 11px;
+	font-weight: bold;
+	border-bottom: 1px solid #868686;
+	margin-bottom: 12px;
+	padding-bottom: 1px;
+	background-color:#006D2F;
+	color: #fff;
+	text-align:left;
+	padding-left:5px;
+
+}
+div#columna .menu-columna div.championspartidos table th {
+	font-weight: normal;
+	font-size:10px;
+	height: 15px;
+	text-align:left;
+	letter-spacing:-1px;
+	background-color:#f3f3f3;
+	text-transform:uppercase;
+	padding: 0 0 0 3px;
+}
+
+div#columna .menu-columna div.championspartidos table td {
+	font-weight: normal;
+	font-size:11px;
+	border-bottom: 1px solid #D9D9D9;
+	height:30px;
+	text-align:center;
+	padding: 0 0 0 3px;
+}
+
+
+div#columna .menu-columna div.championspartidos table td.local {
+	border-bottom: 1px solid #D9D9D9;
+	height: 30px;
+	padding: 0 0 0 6px;
+}
+div#columna .menu-columna div.championspartidos table td.visitante {
+	border-bottom: 1px solid #D9D9D9;
+	height: 30px;
+	padding: 0 0 0 6px;
+}
+div#columna .menu-columna div.championspartidos table td a {
+	font-weight: bold;
+}
+
+
+/* Publicidades ocultas en marcador primera */
+body#marcador div#cabecera h2.patrocinio-primera {
+	display: none;
+}
+body#marcador div#extras .publi {
+	display: none;
+}
+
+#contenido hr {clear:both; display:block;}
+
+
+/* Columna resulatdos baloncesto */
+#columna #resultadosBaloncesto div#resultados ul {
+background:transparent none repeat scroll 0%;
+height:18px;
+margin:0pt;
+padding:0pt;
+}
+
+
+#columna #resultadosBaloncesto div#resultados ul li {
+display:inline;
+font-size:11px;
+font-style:normal;
+}
+
+#columna #resultadosBaloncesto div#resultados ul li.selected a {
+border-bottom:1px solid #000000 !important;
+color:#000000;
+cursor:default;
+font-weight:bold !important;
+outline-color:invert;
+outline-style:none;
+outline-width:medium;
+padding-top:1px;
+text-decoration:none;
+}
+
+
+
+#columna #resultadosBaloncesto div#resultados ul li a {
+border-bottom:1px solid #efefef;
+color:#330000;
+display:block;
+float:left;
+font-size:11px;
+font-weight:normal !important;
+height:18px;
+line-height:1.4em;
+outline-color:invert;
+outline-style:none;
+outline-width:medium;
+padding:0pt 5px;
+text-align:center;
+width:auto;
+}
+
+
+#columna #resultadosBaloncesto div#resultados h4 {
+color:#000000;
+font-size:11px;
+font-variant:small-caps;
+font-weight:bold;
+margin-bottom:7px;
+text-align:left;
+width:200px;
+margin-top:5px;
+}
+
+
+#columna #resultadosBaloncesto div#resultados table {
+border-bottom:2px solid #9b9a99;
+border-collapse:collapse;
+border-spacing:0pt;
+clear:left;
+font-size:1px;
+margin-bottom:4px;
+width:100%;
+text-align:left;
+}
+
+
+#columna #resultadosBaloncesto div#resultados td {
+border-bottom:1px solid #9b9a99;
+color:#330000;
+font-size:11px;
+font-weight:normal;
+text-align:left;
+width:80%;
+text-align:left;
+}
+
+#columna #resultadosBaloncesto div#resultados th {
+background-color:#e3e3e2;
+border-bottom:1px solid #9b9a99;
+color:#000000;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+width:20%;
+}
+
+
+
+
+#columna div#resultadosacb ul {
+background:transparent none repeat scroll 0%;
+height:18px;
+margin:0pt;
+padding:0pt;
+}
+
+
+#columna div#resultadosacb ul li {
+display:inline;
+font-size:11px;
+font-style:normal;
+}
+
+#columna div#resultadosacb ul li.selected a {
+border-bottom:1px solid #000000 !important;
+color:#000000;
+cursor:default;
+font-weight:bold !important;
+outline-color:invert;
+outline-style:none;
+outline-width:medium;
+padding-top:1px;
+text-decoration:none;
+}
+
+
+
+#columna div#resultadosacb ul li a {
+border-bottom:1px solid #efefef;
+color:#330000;
+display:block;
+float:left;
+font-size:11px;
+font-weight:normal !important;
+height:18px;
+line-height:1.4em;
+outline-color:invert;
+outline-style:none;
+outline-width:medium;
+padding:0pt 5px;
+text-align:center;
+width:auto;
+}
+
+
+#columna div#resultadosacb h4 {
+color:#000000;
+font-size:11px;
+font-variant:small-caps;
+font-weight:bold;
+margin-bottom:7px;
+text-align:left;
+width:200px;
+margin-top:5px;
+}
+
+
+#columna div#resultadosacb table {
+border-bottom:2px solid #9b9a99;
+border-collapse:collapse;
+border-spacing:0pt;
+clear:left;
+font-size:1px;
+margin-bottom:4px;
+width:100%;
+text-align:left;
+}
+
+
+#columna div#resultadosacb td {
+border-bottom:1px solid #9b9a99;
+color:#330000;
+font-size:11px;
+font-weight:normal;
+text-align:left;
+width:80%;
+text-align:left;
+}
+
+#columna div#resultadosacb th {
+background-color:#e3e3e2;
+border-bottom:1px solid #9b9a99;
+color:#000000;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+width:20%;
+}
+
+
+
+
+
+
+
+
+#columna div#resultadosclasificacionBaloncesto table {
+border-bottom:2px solid #9b9a99;
+border-collapse:collapse;
+border-spacing:0pt;
+clear:left;
+font-size:1px;
+margin-bottom:4px;
+width:100%;
+text-align:left;
+}
+
+
+#columna div#resultadosclasificacionBaloncesto td { 
+border-bottom:1px solid #9b9a99;
+color:#330000;
+font-size:11px;
+font-weight:normal;
+text-align:left;
+width:70%;
+text-align:left;
+padding-top:5px;
+}
+
+#columna div#resultadosclasificacionBaloncesto th {
+
+border-bottom:1px solid #9b9a99;
+color:#000000;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+width:10%;
+padding-top:5px;
+}
+
+
+/* Calendario NBA */
+#contenido #nbaResultadosJornada table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+#contenido #nbaResultadosJornada th {
+	text-align: center;
+	height: 25px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #2e2f2f;
+	border-bottom: 1px solid #300;
+}
+#contenido #nbaResultadosJornada td {
+	height: 25px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+}
+#contenido #nbaResultadosJornada td b,
+#contenido #nbaResultadosJornada td strong {
+	font-weight: bold;
+	color: #2e2f2f;
+}
+#contenido #nbaResultadosJornada td a {
+	font-weight: bold;
+	color: #D5A239;
+	text-decoration: none;
+}
+#contenido #nbaResultadosJornada td a:hover {
+	text-decoration: underline;
+}
+#contenido #nbaVirtualJornadas table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+#contenido #nbaVirtualJornadas th {
+	text-align: center;
+	height: 25px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #2e2f2f;
+	border-bottom: 1px solid #300;
+}
+#contenido #nbaVirtualJornadas td {
+	height: 25px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px solid #ccc;
+}
+
+#contenido_euroliga .a11n {
+	
+	font-size: 12px;
+
+}
+
+#contenido_euroliga .a11n2 {
+	
+	font-size: 12px;
+
+}
+
+
+#columna div#menuColumnaFEB {
+display:block;
+}
+
+#columna div#menuColumnaFEB ul li a{
+display:block;
+line-height:20px;
+}
+#columna div#menuColumnaFEB h4{
+font-size:12px;
+color:#FF0000;
+line-height:25px;
+}
+
+#columna div#columnaseleccion p{
+line-height:20px;
+}
+
+
+.camaraacb {
+background:url(/baloncesto/imgs/fondo_camara.jpg) no-repeat;
+height:86px;
+padding:10px 0pt 0px 108px;
+font-size:11px;
+}
+
+.camaraacb h4{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+}
+
+.camaraacb p{
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#916C00;
+margin-top:3px;
+border-bottom: 1px solid #916C00;
+width:200px;
+}
+
+.camaraacb ul li {
+color:#003366;
+margin-top:4px;
+width:200px;
+}
+
+body#interiores div#sub_cabecera {
+	float: left;
+	width: 610px;
+	height: 27px;
+	background: url(/baloncesto/acb/temporada_0708/equipos/imgs/fondo_subCabecera.gif) repeat-x;
+}
+
+body#interiores.sincolumna div#sub_cabecera {
+	float: left;
+	width: 959px;
+	height: 27px;
+	background: url(/baloncesto/acb/temporada_0708/equipos/imgs/fondo_subCabecera.gif) repeat-x;
+}
+
+body#interiores div#sub_cabecera  h2 {
+	font-size: 13px;
+	color: #5b604a;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+body#nba div#sub_cabecera {
+	width: 380px;
+	height: 27px;
+	background: url(/baloncesto/acb/temporada_0708/equipos/imgs/fondo_subCabecera.gif) repeat-x;
+}
+body#nba div#sub_cabecera  h2 {
+	font-size: 12px;
+	color: #5b604a;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+
+.guion {
+color:#ffffff;
+
+}
+
+/* Indices fotogalerías */
+
+div#contenido div#fotos dl {
+	display: inline;
+	float: left;
+	padding: 8px;
+	padding: 8px 0 8px 0;
+	text-align: center;
+	width: 150px;
+}
+div#contenido div#fotos dd {
+	border-bottom: 1px #EEE solid;
+	font-size: 12px;
+	font-weight: bold;
+}
+div#contenido div#fotos dd span {
+	font-size: 12px;
+	font-weight: normal;
+}
+div#contenido div#fotos dd h1{
+	line-height: 3em;
+}
+div#contenido div#fotos dd a {
+	color: #336699;
+	text-decoration: none;
+}
+div#contenido div#fotos dd a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* estilos urgente */
+
+.urgente {font:12px Arial,Verdana; color:#D41C13; margin-top:10px;background:url('/elementosPortada/iconos/icono_urgente.gif') no-repeat left; border:1px solid #D59595;width:885px;background-color:#e7e7e7; height:20px;padding-top:2px; padding-left:75px;}
+.urgente a {font:15px Arial,Verdana; font-weight:bold; color:#900;color:#036;text-decoration:none;padding:0px;margin-right:20px;}
+.urgente a:hover {text-decoration:none;color:#333}
+
+
+.directo {font:12px Arial,Verdana; color:#D41C13; margin-top:10px;background:url('/elementosPortada/iconos/icono_directo.gif') no-repeat left; border:1px solid #D59595;width:885px;background-color:#e7e7e7; height:20px;padding-top:2px; padding-left:75px;}
+.directo a {font:15px Arial,Verdana; font-weight:bold; color:#900;color:#036;text-decoration:none;padding:0px;margin-right:20px;}
+.directo a:hover {text-decoration:none;color:#333}
+
+
+
+.entrevista {font:12px Arial,Verdana; color:#D41C13; margin-top:10px;background:url('/elementosPortada/iconos/icono_entrevista.gif') no-repeat left; border:1px solid #D59595;width:885px;background-color:#e7e7e7; height:20px;padding-top:2px; padding-left:75px;}
+.entrevista a {font:15px Arial,Verdana; font-weight:bold; color:#900;color:#036;text-decoration:none;padding:0px;margin-right:20px;}
+.entrevista a:hover {text-decoration:none;color:#333}
+
+
+
+/* buscador */
+
+div#buscador {display:none;}
+
+.buscador-interior {
+background:url(http://www.marca.com/buscador/imgs/fnd_buscador_interior.gif) no-repeat top left;
+background-color:#EDEBDE;
+border-bottom:3px solid #666;
+border-top:1px dotted #666;
+padding:5px 0;
+margin-bottom:15px;
+
+
+}
+
+.buscador-interior p {
+padding-left:80px;
+margin-top:2px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+position:relative;
+
+}
+
+.buscador-interior p input {
+border:1px solid #333;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+float:left;
+margin:5px 10px 0 0;
+padding-left:3px;
+
+
+}
+
+.buscador-interior p .boton_buscar  {
+float:left;
+
+}
+
+.buscador-interior p .boton_buscar input {
+border:0px;}
+
+/*Estilo para el player de Audio*/
+body#interiores div.playerAudio{border-bottom:1px solid #e7e7e7; margin:0 0 5px 0; padding:0 0 5px 0;}
+/*Fin Estilo para el player de Audio*/
+
+
+#nav_ibaka{ clear:both; margin:0px 0 10px 0; padding:0; font:11px Arial, Helvetica, sans-serif;background-color:#f8f8f8;width:598px;}
+#nav_ibaka ul{ margin: 0 ; padding:0;}
+#nav_ibaka ul li{ float:left; display:inline; padding-top:5px ; width:93px; background-color:#f8f8f8; text-align:center; border-right:1px solid #fff; margin:0px 5px 5px 0;}
+#v ul li.fin { border-right:0px;}
+ 
+#nav_ibaka ul li a { border-right:0px; color:#333;}
+#nav_ibaka  ul li a:hover{ color:#333; }
+#nav_ibaka  ul li:hover{ color:#333;  }
+
+
+
+div#extras div.patrocinio-extras-motociclismo {
+background-repeat:no-repeat;
+	position: absolute;
+	top: 271px;
+	left: 774px;
+	width: 194px;
+	height: 46px;
+	background-image: url(/motor/motociclismo/2008/imgs/patrocinio-gafas.png) !important;
+	background-image: none;
+	filter: none !important;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/motor/motociclismo/2008/imgs/patrocinio-gafas.png);
+}
+
+
+
+div#extras div.patrocinio-extras-motociclismo a {
+display:block;
+height:60px;
+text-indent:-2000px;
+width:206px;
+}
+
+h2.masFutbol {
+	background: url(/paginas-interiores/imgs/cabeceras/mas-futbol.gif) no-repeat;
+}
+h2.masFutbol span {
+	display: none;
+}
+
+h2.masFutbol {
+	display: block;
+	height: 28px;
+	text-indent: -2000px;
+	width: 960px;
+		border-bottom: 2px solid #DBDBDB;
+	float: left;
+	margin: 4px 0 0 0;
+	padding: 0 0 5px 1px;
+	position: relative;
+}

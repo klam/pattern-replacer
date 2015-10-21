@@ -1,0 +1,30 @@
+#todoPL{ width:100%; text-align:left; padding:8px 0 0 0}
+
+#publicidades_top{ display:none;}
+#cabecera{ display:inline; background:none;}
+#cabecera h1{ padding:0px; display:inline;}
+.encabezado{ display: inline;}
+.encabezado h2{  padding:6px 0 0 0; font-size:14px; font-weight:bold; }
+#cab1{ width:auto; padding:0 5px 0 10px; border-right:1px solid #CECECE;}
+#cab2,#cab3{ display:none;}
+
+#menunav{ display:none;}
+#submenunav{ display:none;}
+.barraEI{ display:none;}
+
+#contenido{ background:none; padding: 0 8px 0 0 }
+.migaactualizado{ display:none;}
+#colAB{ float:none; display:block; clear:both; width:auto;}
+#colC{ display:none;}
+#EIcolA { display:none;}
+#EIcolB { width:auto;}
+
+.adds{ display:none;}
+
+
+#envialanoticia,#rectificalanoticia,#articulopina{ display:none;}
+.OpcArt{ display:none;}
+
+#pie{ display:none;}
+.pie2{ display:none;}
+#enlacesvocento{ display:none;}

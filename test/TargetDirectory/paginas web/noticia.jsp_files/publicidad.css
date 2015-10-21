@@ -1,0 +1,31 @@
+.pub_728x90 {
+	height: 90px;
+	width: 742px;
+	float: left;
+	background-image: url(../mediaweb/images/publicidad/publicidad.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: right;
+}
+.pub_234x90 {
+	float: left;
+	height: 90px;
+	width: 248px;
+	background-image: url(../mediaweb/images/publicidad/publicidad.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: right;
+}
+.pub_640x30 {
+	background-color: #e5e5e5;
+	float: left;
+	height: 45px;
+	width: 640px;
+}
+.pub_340x250 {
+	text-align: center;
+	background-image: url(../mediaweb/images/publicidad/publicidad2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 14px;
+}

@@ -1,0 +1,50 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://pagead2.googlesyndication.com/pagead/iclk?sa=l&amp;ai=B-zIucbgvSZrNDpmUnQa8_4HzAvTkxBKMpqXcCMCNtwGgnAEQARgBIKOb5QsoAzgAUInOl5r______wFgvQGyAQ13d3cubWFyY2EuY29tyAEB2gFVaHR0cDovL3d3dy5tYXJjYS5jb20vZWRpY2lvbi9tYXJjYS9vdHJvc19kZXBvcnRlcy9uYXRhY2lvbi9lcy9kZXNhcnJvbGxvLzExODczNzEuaHRtbKgDAegDgQToA3boAyLoA7gB9QMAAAAE9QMEAAAAmAQA&amp;num=1&amp;adurl=http://www.grandstandsports.com/%3Frefg%3Dmp1&amp;client=ca-rec-marca"; 
+google_ad.visible_url = "www.grandstandsports.com"; 
+google_ad.line1 = "Michael Phelps Autographs"; 
+google_ad.line2 = "Gold Medalist Michael Phelps"; 
+google_ad.line3 = "Signs With Grandstand Sports"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://pagead2.googlesyndication.com/pagead/iclk?sa=l&amp;ai=BzinecbgvSZrNDpmUnQa8_4HzApO4pl7F_7jFBcCNtwHwogQQAhgCIKOb5QsoAzgAUOvK2N_5_____wFgvQGyAQ13d3cubWFyY2EuY29tyAEB2gFVaHR0cDovL3d3dy5tYXJjYS5jb20vZWRpY2lvbi9tYXJjYS9vdHJvc19kZXBvcnRlcy9uYXRhY2lvbi9lcy9kZXNhcnJvbGxvLzExODczNzEuaHRtbIACAagDAegDgQToA3boAyLoA7gB9QMAAAAE9QMEAAAAmAQA&amp;num=2&amp;adurl=http://www.onaris.com&amp;client=ca-rec-marca"; 
+google_ad.visible_url = "www.onaris.com"; 
+google_ad.line1 = "Oro laminado/Gold layered"; 
+google_ad.line2 = "Mas de 15,000 modelos en productos"; 
+google_ad.line3 = "visite sitio web para ver productos"; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = new Object(); 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://pagead2.googlesyndication.com/pagead/iclk?sa=l&amp;ai=BtfCMcbgvSZrNDpmUnQa8_4HzAqXCkoUB1Yj1zQzAjbcBwLgCEAMYAyCjm-ULKAM4AFDDlL_DAmC9AaABy6LN9QOyAQ13d3cubWFyY2EuY29tyAEB2gFVaHR0cDovL3d3dy5tYXJjYS5jb20vZWRpY2lvbi9tYXJjYS9vdHJvc19kZXBvcnRlcy9uYXRhY2lvbi9lcy9kZXNhcnJvbGxvLzExODczNzEuaHRtbKgDAegDgQToA3boAyLoA7gB9QMAAAAE9QMEAAAAmAQA&amp;num=3&amp;adurl=http://espanol.bidz.com/enes/bzJApp/ViewSearch.action%3Fsid%3D100%26tid%3D100%26query%3DcategoryId:238%26facet%3DcategoryId:238%26page%3D1%26comp%3Dgooglecentralamerica%26subid%3Dwatches&amp;client=ca-rec-marca"; 
+google_ad.visible_url = "espanol.bidz.com"; 
+google_ad.line1 = "Relojes a precio bajo"; 
+google_ad.line2 = "hasta 80% de descuento"; 
+google_ad.line3 = "Selecci\x26#243;n Incre\x26#237;ble de Relojes"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

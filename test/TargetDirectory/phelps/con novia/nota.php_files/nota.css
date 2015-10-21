@@ -1,0 +1,72 @@
+.tabla_relacionada {
+	border-right:1px solid #686868;
+	padding-bottom:4px;
+}
+.titulo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: #003d4a;
+	padding:5px;
+
+}
+.fecha_nota {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #666666;
+	padding-left:5px;
+	float:inherit;
+}
+.pie_foto {
+	float:left;
+	vertical-align:bottom;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666666;
+}
+.image {
+	float:left;
+	clear:left;
+	vertical-align: middle;
+	padding: 6px;
+}
+.image_2 {
+	clear:left;
+	vertical-align: middle;
+	padding: 6px;
+}
+
+.image_3 {
+	clear:left;
+	vertical-align: middle;
+	padding: 6px;
+	float:left;
+}
+
+.content {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-align: justify;
+	padding-right: 6px;
+	padding-left: 6px;
+	float:inherit;
+
+}
+.nota_relacionada {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #003d4a;
+	padding: 6px;
+	text-decoration: none;
+}	
+.nota_relacionada:visited {
+	color: #003d4a;
+	text-decoration: none;
+}
+.nota_relacionada:link {
+	color: #003d4a;
+	text-decoration: none;
+}
+.tabla_interna {
+border-right: 1px solid #686868;
+border-left: 1px solid #686868;
+}

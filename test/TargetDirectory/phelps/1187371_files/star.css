@@ -1,0 +1,471 @@
+/* +++++ Valorar +++++ */
+
+a {
+	outline: none;
+}
+div.votar strong {
+	display: block;
+	float: left;
+	padding-right: 8px;
+}
+
+.valorar{
+	list-style:none;
+	margin: 0px;
+	padding:0px;
+	width: 80px;
+	height: 20px;
+	position: relative;
+	background: url(star_rating.gif) top left repeat-x;
+	float: left;
+	margin-right: 5px;
+}
+.valorar li{
+	padding:0px;
+	margin:0px;
+	/*\*/
+	float: left;
+	/* */
+}
+.valorar li a{
+	display:block;
+	width:8px;
+	height: 20px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+}
+.valorar li a:hover{
+	background: url(star_rating.gif) left bottom;
+	z-index: 1;
+	left: 0px;
+}
+.valorar a.uno{
+	left: 0px;
+}
+.valorar a.uno:hover{
+	width:8px;
+}
+.valorar a.dos{
+	left:8px;
+}
+.valorar a.dos:hover{
+	width: 16px;
+}
+.valorar a.tres{
+	left: 16px;
+}
+.valorar a.tres:hover{
+	width: 24px;
+}
+
+.valorar a.cuatro{
+	left: 24px;
+}	
+.valorar a.cuatro:hover{
+	width: 32px;
+}
+.valorar a.cinco{
+	left: 32px;
+}
+.valorar a.cinco:hover{
+	width: 40px;
+}
+.valorar a.seis{
+	left: 40px;
+}
+.valorar a.seis:hover{
+	width: 48px;
+}
+.valorar a.siete{
+	left: 48px;
+}
+.valorar a.siete:hover{
+	width: 56px;
+}
+.valorar a.ocho{
+	left: 56px;
+}
+.valorar a.ocho:hover{
+	width: 64px;
+}
+.valorar a.nueve{
+	left: 64px;
+}
+.valorar a.nueve:hover{
+	width: 72px;
+}
+.valorar a.diez{
+	left: 72px;
+}
+.valorar a.diez:hover{
+	width: 80px;
+}
+
+/* +++++ Valoración actual +++++ */
+.actual{
+	list-style:none;
+	margin: 0px;
+	padding:0px;
+	width: 80px;
+	height: 20px;
+	position: relative;
+	background: url(star_rating_actual.gif) top left repeat-x;		
+}
+.actual li span {
+	display:block;
+	background: url(star_rating_actual.gif) left bottom;
+	width: 0px;
+	height: 20px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+}
+.actual li.c1 span {
+	width: 8px;
+}
+.actual li.c2 span {
+	width: 16px;
+}
+.actual li.c3 span {
+	width: 24px;
+}
+.actual li.c4 span {
+	width: 32px;
+}
+.actual li.c5 span {
+	width: 40px;
+}
+.actual li.c6 span {
+	width: 48px;
+}
+.actual li.c7 span {
+	width: 56px;
+}
+.actual li.c8 span {
+	width: 64px;
+}
+.actual li.c9 span {
+	width: 72px;
+}
+.actual li.c10 span {
+	width: 80px;
+}
+
+/* +++++ Valorado por el usuario +++++ */
+.valorado{
+	list-style:none;
+	margin: 0px;
+	padding:0px;
+	width: 80px;
+	height: 20px;
+	position: relative;
+	background: url(star_rating.gif) top left repeat-x;
+	float: left;
+}
+.valorado li span {
+	display:block;
+	width: 0px;
+	height: 20px;
+	text-decoration: none;
+	text-indent: -9000px;
+	z-index: 20;
+	position: absolute;
+	padding: 0px;
+	background: url(star_rating.gif) left bottom;
+}
+.valorado li.c1 span {
+	width: 8px;
+}
+.valorado li.c2 span {
+	width: 16px;
+}
+.valorado li.c3 span {
+	width: 24px;
+}
+.valorado li.c4 span {
+	width: 32px;
+}
+.valorado li.c5 span {
+	width: 40px;
+}
+.valorado li.c6 span {
+	width: 48px;
+}
+.valorado li.c7 span {
+	width: 56px;
+}
+.valorado li.c8 span {
+	width: 64px;
+}
+.valorado li.c9 span {
+	width: 72px;
+}
+.valorado li.c10 span {
+	width: 80px;
+}
+
+/* +++++ Enviando valoración +++++ */
+.enviandoValoracion {
+	display:none;
+}
+
+/* +++++ Valoración enviada +++++ */
+.valoracionEnviada {
+	display:none;
+	background: url(fondo.gif) repeat-x;
+	width: 100%;
+	padding-top: 3px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+div#valoracion {
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+	float: left;
+	background: url(fondo.gif) repeat-x;
+	width: 100%;
+	padding-top: 3px;
+	margin-bottom: 10px;
+	height: 31px;
+}
+div#enviandoValoracion {
+	background: url(fondo.gif) repeat-x;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+p#valoracionPuntos, p#valoracionPuntosActuales, p#valoracionEnviadaPuntosText, p#valoracionEnviadaPuntosActuales {
+	padding-top: 3px;
+	font-size: 10px !important;
+	width: 35px;
+	float: left;
+	margin-right: 10px;
+	display:  none;
+}
+p#valoracionVotosActuales, p#valoracionEnviadaVotosActuales {
+	padding-top: 3px;
+	font-size: 10px !important;
+	padding-left: 10px;
+}
+p.antetitulo {
+	clear:  both;
+}
+div.votar {
+	float:  left;
+}
+div.resultado strong {
+	float:  left;
+	padding-left: 3px;
+	margin-right: 8px;
+}
+ul.actual {
+	float:  left;
+	margin-right: 10px;
+	margin-left: 3px;
+}
+
+div#enviandoValoracion {
+	font-size: 10px;
+	font-family: Arial, sans-serif;
+}
+div#enviandoValoracion img {
+	float: left;
+	margin-right: 10px;
+}
+.valoracionEnviada {
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+}
+.valoracionEnviada ul {
+	margin-right: 10px;
+}
+
+/* Formulario de envio */
+div#enviarNoticia {
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	clear:  both;
+	margin-top: -15px;
+	position: relative;	
+	padding-bottom: 10px;
+	padding-top: 20px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 15px;
+}
+div.enviarNoticia {
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	clear:  both;
+	margin-top: -15px;
+	position: relative;	
+	padding-bottom: 10px;
+	padding-top: 20px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 15px;
+}
+div#enviarNoticia a.cerrar {
+	position: absolute;
+	top:  5px;
+	right: 5px;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+}
+div.enviarNoticia img {
+	float:  left;
+	margin-right: 20px;
+}
+div.enviarNoticiaAviso {
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	clear:  both;
+	margin-top: -15px;
+	position: relative;	
+	padding-bottom: 10px;
+	padding-top: 20px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 15px;
+}
+div#enviarNoticiaAviso a.cerrar {
+	position: absolute;
+	top:  5px;
+	right: 5px;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+}
+div.enviarNoticia a.cerrar {
+	position: absolute;
+	top:  5px;
+	right: 5px;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+}
+div#enviarNoticia form div {
+	float:  left;
+	width:  48%;
+}
+div#enviarNoticia form input {
+	width: 75%;
+}
+div#enviarNoticia form label {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666;
+	margin-top: 10px;
+}
+div#enviarNoticia form p {
+	clear:  both;
+	font-size: 10px;
+	width: 75%;
+}
+div#enviarNoticia form input#enviar {
+	clear: both;
+	margin-top: 10px;
+	background-color: #333;
+	padding: 2px;
+	text-align:  center;
+	color: #fff;
+	border:  0;
+	font-weight: bold;
+	width: 70px !important;
+}
+
+/* Sobreescribir las herramientas */
+div#herramientas {
+	border: none !important;
+	height:25px;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+div#herramientas p#fecha {
+	font-family: Arial, sans-serif;
+	color:  #333;
+	font-size: 11px;
+	padding-top: 8px;
+}
+ul#tools li#imprimir a {
+	width: 30px !important;
+	background: url(/imgs/iconos/icn_imprimir.gif) no-repeat !important;
+}
+ul#tools li#enviar a {
+	width: 30px !important;
+	background: url(/imgs/iconos/icn_enviar.gif) no-repeat !important;
+	margin-right: 10px;
+}
+ul#tools li#comentar {
+	width:  135px;
+}
+ul#tools li#comentar a {
+	width: 115px !important;
+	background: url(/imgs/iconos/icn_comentarios.gif) no-repeat right !important;
+	font-size: 11px;
+	text-align: right;
+	padding-right: 25px;
+	font-weight: bold;
+}
+ul#tools li#comentar a span {
+	color: #C00;
+	position: relative !important;
+	top:  0 !important;
+}
+body#motos div#herramientas ul {
+	width: 260px;
+}
+body#motos div#herramientas ul li a span {
+	display:block;
+}
+
+body#formula1 div#herramientas ul {
+	width: 260px;
+}
+body#formula1 div#herramientas ul li a span {
+	display:block;
+}
+
+body#gp2 div#herramientas ul {
+	width: 260px;
+}
+body#gp2 div#herramientas ul li a span {
+	display:block;
+}
+
+body#rallies div#herramientas ul {
+	width: 260px;
+}
+body#rallies div#herramientas ul li a span {
+	display:block;
+}
+
+body#home div#herramientas ul {
+	width: 260px;
+}
+body#home div#herramientas ul li a span {
+	display:block;
+}
+
+body#superbikes div#herramientas ul {
+	width: 260px;
+}
+body#superbikes div#herramientas ul li a span {
+	display:block;
+}
+
+body#trial div#herramientas ul {
+	width: 260px;
+}
+body#trial div#herramientas ul li a span {
+	display:block;
+}
+
+body#dakar div#herramientas ul {
+	width: 260px;
+}
+body#dakar div#herramientas ul li a span {
+	display:block;
+}

@@ -1,0 +1,13 @@
+.buscador .input{width:70px;}
+		.buscador .select{ width:110px;}	
+.nubetags{}
+.nubetags h1,.nubetags h2,.nubetags h3,.nubetags h4,.nubetags h5,.nubetags h6{ display:inline;}
+.nubetags .h1,.nubetags .h2,.nubetags .h3,.nubetags .h4,.nubetags .h5,.nubetags .h6{ display:inline;}
+
+.vinnetas label{ font-size:14px; font-weight:bold; color:#333;}
+.vinnetas select{ font-size:10px; font-weight:normal; color:#666; width:auto; padding:0; margin:0;}
+.vinnetas option{ font-size:10px; font-weight:normal; color:#666; width:auto; padding:0 3px 0 0; margin:0;}
+
+.masvinnetas { clear:both; margin:0 auto; text-align:center; padding:10px 0 0 0}
+.masvinnetas p{ display:inline; }
+.masvinnetas p a{  margin:0 15px 0 0}

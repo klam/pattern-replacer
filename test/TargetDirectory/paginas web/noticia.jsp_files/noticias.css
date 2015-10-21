@@ -1,0 +1,597 @@
+A {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	color: #003969;
+	text-decoration: none;
+
+}
+
+A:hover {
+	text-decoration: underline;
+}
+
+
+/* ---------------------------------------------  DIVS DE NOTICIAS ----------------------------------------------------------------*/
+.rss{
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003563;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CECECE;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-left: 3px;
+	margin-bottom: 4px;
+	text-decoration:none;
+}
+.rss A{
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003563;
+	text-decoration:none;
+}
+.rss A:hover {
+	text-decoration:underline;
+}
+.noticiatipo1 {
+	color: #000000;
+	padding-bottom: -4px;
+	float: left;
+	margin: 0px;
+	line-height: 17px;
+}
+.noticiatipo2 {
+	background-color: #F0F1F6;
+	color: #000000;
+	float: left;
+	margin: 0px;
+	padding-bottom: 5px;
+	line-height: 17px;
+}
+
+H1, H1 A {
+	FONT-SIZE: 150%;
+	COLOR: #003969;
+	FONT-FAMILY: "Georgia", "Times New Roman", Arial, Helvetica;
+	TEXT-DECORATION: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 32px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+H1 A:hover, H2 A:hover, H3 A:hover, H4 A:hover, H5 A:hover, H6 A:hover {
+	text-decoration: underline
+}
+H2, H2 A {
+	FONT-SIZE: 130%;
+	COLOR: #003969;
+	FONT-STYLE: normal;
+	FONT-FAMILY: "Georgia", "Times New Roman", Arial, Helvetica;
+	TEXT-DECORATION: none;
+	line-height:23px;
+	text-decoration: none;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-weight: normal;
+	clear: left;
+}
+
+H3, H3 A {
+	FONT-SIZE: 120%;
+	COLOR: #003969;
+	FONT-FAMILY: "Georgia", "Times New Roman", Arial, Helvetica;
+	TEXT-DECORATION: none;
+	line-height:19px;
+	text-decoration: none;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-weight: normal;
+}
+H4, H4 A {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 110%;
+	COLOR: #003969;
+	FONT-FAMILY: "Georgia", "Times New Roman", Arial, Helvetica;
+	TEXT-DECORATION: none;
+	line-height:17px;
+	text-decoration: none;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+H5, H5 A {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 100%;
+	COLOR: #003969;
+	FONT-STYLE: normal;
+	FONT-FAMILY: "Georgia", "Times New Roman", Arial, Helvetica;
+	TEXT-DECORATION: none;
+	line-height:15px;
+	text-decoration: none;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+H6, H6 A {
+	FONT-FAMILY: "Georgia", "Times New Roman", Arial, Helvetica;
+	font-size: 200%;
+	color: #F5A703;
+	line-height: 25px;
+	font-weight: normal;
+	font-style: italic;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.noticiainterior {
+	float:left;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+	margin-right: 5px;
+}
+.noticiainterior_nofloat {
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+}
+/* ----------------------------------  COMPLEMENTOS DE NOTICIAS -------------------------------------------*/
+.epigrafe{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	font-weight: bold;
+	color: #97A6C7;
+	float: none;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.subtitulo h2 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 114%;
+	COLOR: #000000;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Tahoma, Arial, Helvetica;
+	TEXT-DECORATION: none;
+	line-height:17px;
+	text-decoration: none;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+
+.firma {
+	color: #383840;
+	padding-bottom: -4px;
+	float: none;
+	margin: 0px;
+	line-height: 17px;
+	visibility: visible; 
+	display: block;
+	text-transform: uppercase;
+}
+
+.actualizada{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	font-weight: bold;
+	color: #F3A60A;
+	font-style: normal;
+}
+.cintillo {
+	font-family: "Georgia", Tahoma, Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	color: #6583AB;
+	float: none;
+	text-decoration: none;
+	background-color: #E4E8ED;
+	text-transform: uppercase;
+	vertical-align: text-bottom;
+	padding-left: 3px;
+	line-height: 22px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+}
+.antetitulo {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: #6583AB;
+	float: none;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	padding-left: 3px;
+	line-height: 17px;
+	margin-right: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+}
+.ampliacion {
+	font-family: "Georgia", Tahoma, Helvetica;
+	font-size: 11px;
+	font-weight: bolder;
+	color: #8BA5C9;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+.comentarios_naranja {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F3A60A;
+	font-style: normal;
+}
+.comentarios {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 80%;
+	font-style: normal;
+	font-weight: normal;
+	line-height:15px;
+	color: #000000;
+}
+.noticiadd, .noticiadd A {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 12px;
+	color: #85A0C6;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	float: none;
+}
+
+
+.noticiadd2, .noticiadd2 A {
+	font-family: Tahoma, Times, serif;
+	font-size: 11px;
+	color: #003969;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+.noticiadd3, .noticiadd3 A {
+	font-family: Tahoma, Times, serif;
+	font-size: 10px;
+	color: #003969;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+.noticiadd A:hover, .noticiadd2 A:hover, .noticiadd3 A:hover {
+	text-decoration: underline;
+}
+.noticia_fecha {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.fin_noticia {
+	
+	font-weight: normal;
+	top: -5px;
+	padding-right: 2px;
+	padding-left: 2px;
+	border-top-style: dotted;
+	border-top-color: #CCCCCC;
+	margin: 5px 0px 2px;
+	border-top-width: 1px;
+	padding-top: 0px;
+	clear: left;
+	padding-bottom: 5px;
+}
+.fin_noticiapeq {
+	font-weight: normal;
+	top: -5px;
+	padding-right: 2px;
+	padding-left: 2px;
+	border-top-style: dotted;
+	border-top-color: #CCCCCC;
+	margin: 2px 0px;
+	border-top-width: 1px;
+	padding-top: 0px;
+	clear: left;
+	padding-bottom: 5px;
+}
+.extraHTML {
+	color: #003969;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	overflow: hidden;
+	width:100%;
+}
+.extraHTML A {
+	text-decoration: none;
+	font-weight: bold;
+}
+.extraHTML A:hover{
+	text-decoration: underline;
+}
+/* ---------------------------------------------  IMAGENES ----------------------------------------------------------------*/
+/*
+.cuadro_multimedia {
+	float: right;
+	clear:none;
+	width: 320px;
+	margin-left:15px;
+	margin-bottom:15px;
+}
+*/
+
+
+.cuadro_multimedia {
+	float: right;
+	clear:left;
+	width:330px;
+	padding-left:10px;
+}
+
+.imagen_derecha {
+	float: right;
+	clear:left;
+}
+.noticia_imagen_derecha {
+	float: right;
+	margin:0px 0px 0px 10px;
+
+}
+
+.imagen_izquierda {
+	float: left;
+	margin-right: 5px;
+	/*clear: both;*/
+	/*overflow: hidden;*/
+}
+/* ---------------------------------------------  COMPLEMENTOS DE IMAGENES -------------------------------------------------*/
+.controlador {
+	float: right;
+	position: relative;
+	top: 2px;
+	padding-right: 10px;
+}
+
+.controladorDosColumnas {
+	float: right;
+	position: relative;
+	top: 2px;
+	padding-right: 10px;
+	z-index: 2;
+	margin-bottom: -18px;
+}
+
+.controladorHorizontal {
+	float: top;
+	position: relative;
+	top: 2px;
+	padding-left: 270px;
+	z-index: 2;
+	margin-bottom: -18px;
+}
+
+.controladorVertical {
+	float: top;
+	position: relative;
+	top: 2px;
+	padding-left: 110px;
+	z-index: 2;
+	margin-bottom: -18px;
+}
+
+.enlace {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration:none;
+	color: #000000;
+	margin: 0px 5px 0px 0px;
+	line-height: 13px;
+}
+.enlacepeq {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration:none;
+	color: #000000;
+	margin: 0px 5px 0px 0px;
+	line-height: 13px;
+}
+.enlacenegrita {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration:none;
+	color: #000000;
+	margin: 0px 5px 0px 0px;
+}
+.enlacenegritapeq {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;
+	color: #000000;
+	margin: 0px 5px 0px 0px;
+}
+.enlacenegrita10 {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration:none;
+	color: #000000;
+	margin: 0px 0px 0px 0px;
+}
+.enlace:hover, .enlacepeq:hover, .enlacenegrita:hover, .enlacenegritapeq:hover, .enlacenegrita10:hover {
+	text-decoration:underline;
+}
+
+.cintillo2 {
+	width: 100%;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003969;
+	float: none;
+	text-decoration: none;
+	background-color: #C8D4E2;
+	text-transform: uppercase;
+	line-height: 16px;
+}
+.menuimpresa {
+	FONT-SIZE: 10px;
+	FONT-FAMILY: Tahoma, Arial, Helvetica;
+	FONT-WEIGHT: normal;
+	line-height: 14px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #Cfcfcf;
+	text-align: center;
+}
+.menuimpresa A {
+	COLOR: #000;
+	FLOAT: none;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+
+}
+.menuimpresa A:hover {
+	COLOR: #666666; 
+	TEXT-DECORATION: underline
+}
+.seccion {
+	float: none;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.seccion H1, .seccion H1 A{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #F3A60A;
+	font-style: normal;
+	margin-top: 0px;
+	line-height: 17px;
+	margin-bottom: 0px;
+	text-transform:uppercase;	
+}
+.seccion H2, .seccion H2 A {
+	FONT-SIZE: 98%;
+	COLOR: #003969;
+	FONT-STYLE: normal;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	line-height:13px;
+	text-decoration: none;
+	text-indent: 0px;
+}
+
+.seccion H1 A:hover, .seccion H2 A:hover {
+	text-decoration: underline;
+}
+.barra {
+	width: 100%;
+	background-color: #94A8C9;
+	font-family: "Georgia", "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #FFFFFF;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 23px;
+	vertical-align: middle;
+}
+.barra_enlace {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+}
+.noticia_titular h1{
+	FONT-SIZE: 230%;
+	COLOR: #003969;
+	FONT-FAMILY: "Georgia", Tahoma, Verdana, Arial, Helvetica;
+	TEXT-DECORATION: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 32px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.noticia_entradilla {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 115%;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	line-height: 19px;
+}
+.noticia_texto h2, .noticia_texto p {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 110%;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	line-height:18px;
+}
+.entradilla{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	color: #383840;
+	line-height:18px;
+}
+.noticia_texto1 {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 110%;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.noticia_texto2 {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.noticia_texto3 {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 150%;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.noticia_texto4 {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 170%;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.noticia_texto5 {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 190%;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}

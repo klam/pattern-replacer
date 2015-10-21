@@ -1,0 +1,288 @@
+/* ---------------------------------------------  SERVICIOS TIPO 1  ----------------------------------------------------------------*/
+.servicio {
+	margin-bottom: 10px;
+	clear: right;
+	width: 320px;
+	margin-top: 0px;
+	/*overflow: hidden;*/
+}
+.servicio_fondoazul {
+	background-color: #F0F1F6;
+	width: 320px;
+	margin-top: 0px;
+	overflow: hidden;
+}
+
+.servicio_cintillo {
+	font-family: Tahoma, Helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	color: #003969;
+	float: none;
+	text-decoration: none;
+	background-color: #F0F1F6;
+	text-transform: uppercase;
+	line-height: 16px;
+	padding-left: 5px;
+}
+
+.servicio_titulo {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #92AAC6;
+	height: 14px;
+	vertical-align: middle;
+	line-height: 14px;
+}
+
+.servicio_imagenizq {
+	float: left;
+	margin-right: 5px;
+	clear: both;
+	overflow: hidden;
+}
+
+.servicio_enlace {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration:none;
+	color: #000000;
+	margin: 0px 5px 0px 0px;
+	line-height: 13px;
+}
+.servicio_enlace:hover{
+	text-decoration:underline;
+}
+
+.servicio_enlacepeq {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration:none;
+	color: #000000;
+	margin: 0px 5px 0px 0px;
+	line-height: 13px;
+}
+.servicio_enlacepeq:hover{
+	text-decoration:underline;
+}
+.servicio_enlacenegrita {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;
+	color: #000000;
+	margin: 0px 5px 0px 0px;
+}
+.servicio_enlacenegrita:hover {
+	text-decoration:underline;
+}
+.servicio_enlacepeqazul {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration:none;
+	color: #85A0C6;
+	margin: 0px 5px 0px 0px;
+	line-height: 13px;
+}
+.servicio_enlacepeqazul:hover{
+	text-decoration:underline;
+}
+.servicio_fecha {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.servicio H2 {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 18px;
+	COLOR: #E69200;
+	FONT-STYLE: normal;
+	FONT-FAMILY: "Georgia", Tahoma, Verdana, Arial, Helvetica;
+	TEXT-DECORATION: none;
+	line-height:16px;
+	text-decoration: none;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.servicio H3, .servicio_fondoazul H3 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 18px;
+	COLOR: #003969;
+	FONT-STYLE: normal;
+	FONT-FAMILY: "Georgia", Tahoma, Verdana, Arial, Helvetica;
+	TEXT-DECORATION: none;
+	line-height:18px;
+	text-decoration: none;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.servicio H4 {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #003969;
+	FONT-STYLE: normal;
+	FONT-FAMILY: "Georgia", Tahoma, Verdana, Arial, Helvetica;
+	TEXT-DECORATION: none;
+	line-height:17px;
+	text-decoration: none;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+/* ---------------------------------------------  COMPLEMENTOS DE SERVICIOS -------------------------------------------------*/
+.servicio_add, .servicio_add A {
+	font-family: Tahoma, Helvetica;
+	font-size: 12px;
+	color: #85A0C6;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	float: none;
+}
+.servicio_add A:hover {
+	text-decoration: underline;
+}
+
+
+.fin_servicio {
+	padding-right: 2px;
+	padding-left: 2px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	margin: 4px 0px;
+	border-top-width: 1px;
+	padding-bottom: 3px;
+	clear: both;
+}
+
+.extras_barra{
+	width: 990px;
+	background-color: #94A8C9;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #FFFFFF;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 23px;
+}
+.extras_barra_enlace {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+}
+.extras {
+	float: left;
+/*/	height: 280px;*/
+	width: 150px;
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 11px;
+}
+.extras_separador {
+	float: left;
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #999999;
+	margin-right: 9px;
+	height: 200px;
+	padding-right: 8px;
+}
+
+.extras_titulo {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 11px;
+	vertical-align: middle;
+	background-color: #013765;
+	height: 14px;
+	padding-top: 3px;
+	padding-left: 6px;
+
+}
+.extras_H3 {
+	FONT-SIZE: 125%;
+	COLOR: #003969;
+	FONT-FAMILY: "Georgia", Tahoma, Verdana, Arial, Helvetica;
+	TEXT-DECORATION: none;
+	line-height:20px;
+	text-decoration: none;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+.extras_H4 {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 110%;
+	COLOR: #003969;
+	FONT-FAMILY: "Georgia", Tahoma, Verdana, Arial, Helvetica;
+	TEXT-DECORATION: none;
+	line-height:18px;
+	text-decoration: none;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.extras_H5 {
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 95%;
+	font-weight: bold;
+	color: #003969;
+	text-decoration: none;
+	line-height: 16px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.masleido_selec{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:10px;
+	font-weight:bold;
+	background-color: #F8F9FB;
+	line-height: 22px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-left-color: #999999;
+}
+.masleido, .masleido A{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:10px;
+	font-weight:normal;
+	line-height: 22px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-left-color: #999999;
+}
+.masleido_cuerpo{
+	border: 1px dotted #999999;
+	width: 318px;
+	background-color: #F8F9FB;
+}
+.masleido_interior {
+	padding-top: 3px;
+	padding-right: 8px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+}

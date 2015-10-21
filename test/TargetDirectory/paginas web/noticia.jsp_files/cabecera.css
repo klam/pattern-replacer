@@ -1,0 +1,263 @@
+/* ------------------------------------------------- CABECERA --------------------------------------------------*/
+.menuedicion{
+	FONT-SIZE: 10px;
+	FLOAT: left;
+	COLOR: #666666;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	padding-bottom: 0px; 
+	padding-top: 0px; 
+	margin-top: 0px; 
+}
+.menuedicion A{
+	FONT-SIZE: 10px;
+	COLOR: #666666;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+.menuedicion A:hover{
+	text-decoration:underline;
+}
+.menuedicion SPAN {
+	COLOR: #0D3C6A;
+	font-weight: bold;
+}
+.menuconfiguracion {
+	FONT-SIZE: 10px;
+	BACKGROUND: #fff;
+	FLOAT: right;
+	FONT-FAMILY: Arial, Helvetica;
+	TEXT-ALIGN: right;
+	height: 17px;
+	padding-top: 2px;
+}
+.menuconfiguracion A {
+	FONT-WEIGHT: normal; COLOR: #000; TEXT-DECORATION: none
+}
+.menuconfiguracion A:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.buscador {
+	FONT-SIZE: 10px;
+	FLOAT: left;
+	COLOR: #000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	height: 77px;
+	width: 390px;
+}
+.logo {
+	height: 77px;
+	width: 166px;
+	float: left;
+}
+.eltiempo {
+	FONT-SIZE: 11px;
+	FLOAT: right;
+	COLOR: #FFFFFF;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	height: 77px;
+	width: 400px;
+}
+.cabecera {
+	width: 990px;
+	background-color: #1B1B35;
+	height: 77px;
+}
+.fecha {
+	font-size: 11px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+.hora{
+	font-size: 12px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.ir_a_hemeroteca {
+	FONT-SIZE: 9px;
+	COLOR: #FFFFFF;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration:none;
+}
+.ir_a_hemeroteca:hover{
+	text-decoration: underline;
+}
+.enlaces_tiempo {
+	FONT-SIZE: 9px;
+	COLOR: #FFFFFF;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration:none;
+}
+.enlaces_tiempo:hover{
+	text-decoration: underline;
+}
+.textos_cabecera {
+	FONT-SIZE: 9px;
+	COLOR: #FFFFFF;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration:none;
+}
+.combos {
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	border: 1px solid #C2C6CF;
+}
+.border-bottom {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E9E9E9;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+}
+.border-right {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #E9E9E9;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+/* ------------------------------------------------- MENUS --------------------------------------------------*/
+.separador_menu {
+	float: left;
+	background-image: url(../mediaweb/images/separador_menu.jpg);
+	height: 22px;
+	width: 1px;
+}
+.menuprincipal{
+	color: #ffffff;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;
+	background-color: #94A8C9;
+}
+.menuprincipal_selec A{
+	color: #000000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;
+	background-color: #ebe8e1;
+	border-top: 1px solid #FFFFFF;
+	width: 110px;
+	float: left;
+	text-align: center;
+	vertical-align: bottom;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EBE8E1;
+}
+.menuprincipal A{
+	color: #ffffff;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;
+	background-color: #94A8C9;
+	border-top: solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
+	width: 109px;
+	float: left;
+	text-align: center;
+	vertical-align: bottom;
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+.menuprincipal A:hover {
+	text-decoration:underline;
+}
+
+
+.contenedor_submenu {	
+	width: 990px;
+/*	overflow:hidden;*/
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 7px;
+	padding-bottom:7px;
+	background-color: #ebe8e1;
+	border-bottom: solid 1px #dddddd;
+	border-left: solid 1px #dddddd;
+	border-right: solid 1px #dddddd;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #cbcbcb;
+	vertical-align:middle;
+}
+.submenu1 {
+	text-decoration:none;
+}
+.submenu2 {
+	text-decoration:none;
+}
+.submenu3 {
+	text-decoration:none;
+	position: relative;
+	left: 55px;
+}
+.submenu4 {
+	text-decoration:none;
+	position: relative;
+	left: 420px;
+}
+.submenu5 {
+	text-decoration:none;
+	position: relative;
+	left: 450px;
+}
+.submenu6 {
+	text-decoration:none;
+	position: relative;
+	left: 650px;
+}
+.submenu7 {
+	text-decoration:none;
+	position: relative;
+	left: 10px;
+}
+.submenu8 {
+	text-decoration:none;
+	position: relative;
+	left: 10px;
+}
+
+.submenu1 A, .submenu2 A, .submenu3 A, .submenu4 A, .submenu5 A, .submenu6 A, .submenu7 A , .submenu8 A {
+	color: #000000;
+	font-size: 12px;
+	text-decoration:none;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+.submenu1 A:hover, .submenu2 A:hover, .submenu3 A:hover, .submenu4 A:hover, .submenu5 A:hover, .submenu6 A:hover, .submenu7 A:hover , .submenu8 A:hover {
+	text-decoration: underline;
+}
+.seccion_seleccionada A{
+/*	text-decoration: underline;*/
+	font-weight: bold;
+}
+.tituloSeccion {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	letter-spacing: 0px;
+}
+.tituloServicio {
+
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	letter-spacing: 0px;
+}

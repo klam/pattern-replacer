@@ -1,0 +1,31 @@
+/*pie*/
+	#pie{ background:url(/img/f_pie.gif) repeat-x; background-position: top; margin: 3px 2px 0 5px; clear:both; font-size:10px; color:#A6A6A6; text-align:left;}
+		.pie1{ padding:16px 0 0 0; float:left; width:223px; font-size:20px; font-weight:bold; margin:0 auto; text-align:right;}
+			.logovocento{ margin:0 auto; text-align:left; padding:16px 0 0 25px}
+		.pie2{ padding:16px 0 0 0; float:left; width:528px; margin:0 auto; text-align:center;}
+		.pie3{ padding:16px 0 0 0; float:right; width:223px; font-size:20px; font-weight:bold; margin:0 auto; text-align:right;}
+			.pie3 img{ margin:0 8px 0 8px}
+	.copyright{ padding: 0 10px 0 10px; }
+	#pie a{color:#464A55;}
+	#pie a:hover { color:#990000;}
+	#pie p{ padding: 0 0 6px 0}
+	#pie p.pie-enlaces a{ color:#828282; text-decoration:underline; font-size:9px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+	
+/*enlaces vocento*/
+/*#enlacesvocento{ clear:both; background:url(/img/f_enlacesvocento.jpg) repeat-x; background-position: top; padding:0 0 20px 0; text-align:left;}
+	.EV1{ float:left; background:url(/img/f_enlacesvocento1.gif) no-repeat; background-position: 0% 10px; width:20px; height:40px; }
+	.EV2{ float:left; background:url(/img/f_enlacesvocento2.gif) no-repeat; background-position: 50% 16px; width:962px; padding:37px 0 0; text-align:center; margin:0 auto; }
+		.EV2 div{ display:inline; text-align:left; clear:none; white-space:normal;}
+		.EV2 p{ line-height:20px; display:inline; white-space:normal; padding:0 4px 0px 14px; margin:0 0 5px 0;  font-size:10px; color:#666666; background:url(/img/marca_enlacesvocento.gif) no-repeat; background-position: 7px 6px; text-align:left; }
+		.EV2 a{ font-size:10px; color:#939393; text-decoration:underline; }
+	.EV3{ float:right; background:url(/img/f_enlacesvocento3.gif) no-repeat; background-position: 100% 10px; width:20px; height:40px; }*/
+	
+	#enlacesvocento{ clear:both; background:url(/img/f_enlacesvocento.jpg) repeat-x; background-position: top; padding:0 0 20px 0; text-align:left;}
+	.EV1{ float:left; background:url(/img/f_enlacesvocento1.gif) no-repeat; background-position: 0% 10px; width:20px; height:40px; }
+	.EV2{ float:left; background:url(/img/f_enlacesvocento2.gif) no-repeat; background-position: 50% 16px; width:962px; padding:37px 0 0; text-align:center; margin:0 auto; }
+		.EV2 div{ display:inline; text-align:left; clear:none; white-space:normal;}
+		.EV2 p{ float:left; display:block; padding:0 4px 5px 14px; white-space:nowrap; font-size:10px; color:#666666; background:url(/img/marca_enlacesvocento.gif) no-repeat; background-position: 7px 6px; text-align:left; }
+		html > .EV2 p{ white-space:normal; }
+		.EV2 a{ font-size:10px; color:#939393; text-decoration:underline; }
+	.EV3{ float:right; background:url(/img/f_enlacesvocento3.gif) no-repeat; background-position: 100% 10px; width:20px; height:40px; }
+
